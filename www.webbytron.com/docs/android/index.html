@@ -1,0 +1,829 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "https://www.w3.org/TR/html4/strict.dtd">
+
+<!-- Mirrored from www.webbytron.com/docs/android/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 29 Jul 2021 02:34:52 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head lang="en">
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>How to turn web app or website into an Android app | Complete Guide - webbytron</title>
+<meta name="description" content="Complete guide available to create Android app from website in a few minutes. Just follow the simple instructions and convert website into an Android app source code.">
+<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+<link rel="stylesheet" href="../assets/css/bootstrap-4.3.1-dist/css/bootstrap.css" type="text/css">
+<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+<style type="text/css" media="screen">
+    p,
+    table,
+    hr,
+    .box {
+      margin-bottom: 25px
+    }
+
+    .box p {
+      margin-bottom: 10px
+    }
+  </style>
+<link rel="apple-touch-icon" sizes="57x57" href="../../favicon/apple-icon-57x57.html">
+<link rel="apple-touch-icon" sizes="60x60" href="../../favicon/apple-icon-60x60.html">
+<link rel="apple-touch-icon" sizes="72x72" href="../../favicon/apple-icon-72x72.html">
+<link rel="apple-touch-icon" sizes="76x76" href="../../favicon/apple-icon-76x76.html">
+<link rel="apple-touch-icon" sizes="114x114" href="../../favicon/apple-icon-114x114.html">
+<link rel="apple-touch-icon" sizes="120x120" href="../../favicon/apple-icon-120x120.html">
+<link rel="apple-touch-icon" sizes="144x144" href="../../favicon/apple-icon-144x144.html">
+<link rel="apple-touch-icon" sizes="152x152" href="../../favicon/apple-icon-152x152.html">
+<link rel="apple-touch-icon" sizes="180x180" href="../../favicon/apple-icon-180x180.html">
+<link rel="icon" type="image/png" sizes="192x192" href="../../favicon/android-icon-192x192.html">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="../../favicon/favicon-96x96.html">
+<link rel="icon" type="image/png" sizes="16x16" href="../../favicon/favicon-16x16.png">
+<link rel="stylesheet" href="../../../stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link rel="stylesheet" href="../../../cdn.jsdelivr.net/gh/highlightjs/cdn-release%4010.2.0/build/styles/default.min.css">
+<script src="../../../cdn.jsdelivr.net/gh/highlightjs/cdn-release%4010.2.0/build/highlight.min.js"></script>
+<link rel="stylesheet" href="../assets/css/custom.css">
+<link rel="manifest" href="../../favicon/manifest.html">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<script type="text/javascript">
+    function showBackground() {
+      document.getElementById("check").checked = false;
+      document.getElementById("wrapper").style.visibility = "visible";
+
+    }
+  </script>
+<script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"56373664"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","../../../bat.bing.com/bat.js","uetq");</script>
+</head>
+<body onload="prettyPrint()">
+<input type="checkbox" id="check">
+<nav class="navbar fixed-top">
+<style>
+    @media screen and (max-width: 768px) {
+.logodesktop {
+display: none;
+} 
+        }
+    </style>
+<a class="logo" href="#">
+<img src="../assets/images/logo_white.png" class="logodesktop" height="30" alt="webbytron" loading="lazy"></a><div style="color:white; font-size: 19px;" align="center">&nbsp;Documentation for Android</div>
+<div class="nav-items">
+<label for="check" class="checkbtn">
+<i class="fa fa-bars"></i>
+</label>
+</div>
+</nav>
+<script>
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '../../../www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-11969657-42', 'auto', {
+      'storage': 'none',
+      'storeGac': false,
+      'clientId': window._clientId
+    });
+    ga('set', 'anonymizeIp', true);
+    ga('send', 'pageview');
+  </script>
+<script type="text/javascript">
+    var addthis_config = {
+      ui_508_compliant: true,
+      data_use_cookies_ondomain: !1,
+      data_use_cookies: !1
+
+    }
+  </script>
+<script src="../../../ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="../../../cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.js"></script>
+<link rel="stylesheet" href="../../../cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.css">
+<link rel="stylesheet" href="../../../cdn.jsdelivr.net/gh/fancyapps/fancybox%403.5.7/dist/jquery.fancybox.min.css" />
+<script src="../../../cdn.jsdelivr.net/gh/fancyapps/fancybox%403.5.7/dist/jquery.fancybox.min.js"></script>
+<link rel="stylesheet" href="colorbox.css" type="text/css">
+<script type="text/javascript" src="colorbox.js"></script>
+<script>
+    $(document).ready(function() {
+      $(".popup").colorbox({
+        iframe: true,
+        innerWidth: 940,
+        innerHeight: 625
+      });
+      setTimeout(
+        function() {
+          $(".popup").trigger("click");
+        }, 9000);
+
+
+      //Example of preserving a JavaScript event for inline calls.
+      $("#click").click(function() {
+        $('#click').css({
+          "background-color": "#f00",
+          "color": "#fff",
+          "cursor": "inherit"
+        }).text("Open this window again and this message will still be here.");
+        return false;
+      });
+    });
+  </script>
+<script type="text/javascript" src="../../../s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5946cdbc79d9ca03"></script>
+<script type="text/javascript" id="e992e46f4b560ad29e2a2b0db253ec7e" src="https://support-chat.jocapps.com/script.php?id=e992e46f4b560ad29e2a2b0db253ec7e"></script>
+<div class="sidebar">
+<ul>
+<li><a href="#intro" onclick="showBackground();"><span>Intro</span></a></li>
+<li><a href="#changelog" onclick="showBackground();"><span>What's new</span></a></li>
+<li><a class="main-menu" href="#setupwebsite" onclick="showBackground();">Setting up your web app</a></li>
+<li><a class="main-menu" href="#setup" onclick="showBackground();">Setting up webbytron</a></li>
+<li><a class="main-menu" href="#icon" onclick="showBackground();">Further options</a></li>
+<li><a href="#icon" onclick="showBackground();">App Icon</a></li>
+<li><a href="#splash" onclick="showBackground();"><span>Splash Screen</span></a></li>
+<li><a href="#externallinks" onclick="showBackground();">URL Handling API </a></li>
+<li><a href="#css" onclick="showBackground();">Custom CSS API</a></li>
+<li><a href="#geolocation" onclick="showBackground();">HTML5 Geolocation API</a></li>
+<li><a href="#push" onclick="showBackground();">Push Notifications API</a></li>
+<li><a href="#admob" onclick="showBackground();">AdMob Ads API</a></li>
+<li><a href="#facebookads" onclick="showBackground();">Facebook Ads API</a></li>
+<li><a href="#reset_link" onclick="showBackground();"><span>Reset App API</span></a></li>
+<li><a href="#loadingsign" onclick="showBackground();"><span>Loading Sign API</span></a></li>
+<li><a href="#downloader" onclick="showBackground();">File Downloader API</a>
+<li><a href="#uuid" onclick="showBackground();"><span>UUID API</span></a></li>
+<li><a href="#applinks" onclick="showBackground();"><span>App Links API</span></a></li>
+<li><a href="#appsharingdialog" onclick="showBackground();"><span>App Sharing Dialog API</span></a></li>
+<li><a href="#inapppurchases" onclick="showBackground();">In-App Purchases API</a></li>
+<li><a href="#qrcodescanner" onclick="showBackground();">QR Code Scanner API</a></li>
+<li><a class="main-menu" href="#publish" onclick="showBackground();">Build &amp; Publish</a></li>
+<li><a href="#publish" onclick="showBackground();">App Publishing Service</a></li>
+<li><a href="#optionb" onclick="showBackground();">Manual Publishing Process</a></li>
+<li><a href="#renamepackagename" onclick="showBackground();">Change the package name</a></li>
+<li><a class="main-menu" href="#credits" onclick="showBackground();">Credits &amp; Licenses</a></li>
+<li><a class="main-menu" href="#rate" onclick="showBackground();">Rate webbytron</a></li>
+<li><a class="main-menu" href="#ios" onclick="showBackground();">Continue with iOS &amp; macOS</a></li>
+<li><a class="main-menu" href="#support" onclick="showBackground();">Support</a></li>
+<li><a class="main-menu" href="https://www.onlineappcreator.com/custom-development-services.php" target="_blank" onclick="showBackground();">Custom Development</a></li>
+<li></li>
+</ul>
+</div>
+<div class="wrapper">
+<p id="intro">&nbsp;</p>
+<div class="main-content">
+<div class="documentation-header">
+<div class="top-section">
+<a href="../../index.html" target="_blank">
+<h1 class="center alt"><img src="assets/img/header.png" alt="webbytron for Android" height="200px" style="margin-top:30px; margin-bottom:10px;"></h1>
+</a><br>
+<h1 style="text-align:center;color:#4f4c4b">Documentation – webbytron for Android</h1>
+<p style="text-align:center;color:#4f4c4b;">Switch to: [<a href="../ios/index.html">webbytron for iOS</a>] [<a href="../mac/index.html">webbytron for macOS</a>]</p>
+<br>
+<div class="borderTop">
+<div class="onlineAppCreator">
+<div align="center"><br><br><img src="assets/img/welcome.png" alt="webbytron for Android is a great choice. Thanks for downloading!" height="100px"><br><br></div>
+<div class="row" align="center">
+<div class="col-sm" style="">
+<br>
+<br>
+<a href="../../download/iOS/index84bd.html?ref=ios_doc" target="_blank">
+<img src="assets/img/GetwebbytronForiOS.png" alt="Get webbytron for iOS" height="80px" width="210px">
+</a>
+</div>
+<div class="col-sm">
+<br>
+<br>
+<a href="../../download/mac/index.html" target="_blank">
+<img src="assets/img/GetwebbytronForMac.png" alt="Get webbytron for macOS" height="80px" width="210px">
+</a>
+</div>
+<div class="col-sm">
+<br>
+<br>
+<a href="https://www.apprat.io/" target="_blank">
+<img src="assets/img/GetAppRatio.png" alt="Get apprat.io" height="80px" width="210px">
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="info">
+<hr>
+<h3 id="changelog"><strong>What's new: Changelog</strong></h3>
+See the changelog <a href="https://codecanyon.net/item/android-webbytron-urlhtml-to-android-app-push-url-handling-apis-much-more/19487619/faqs/29079?ref=onlineappcreator" target="_blank">here</a>.
+<p id="setupwebsite">&nbsp;</p>
+<hr>
+ <h3 id="setupwebsitesection"><strong>1) Setting up your web app/website/HTML files</strong></h3>
+<h4><strong>Option A) Use a URL for accessing your web application (= <i>store files online</i>)</strong></h4>
+<p>Create a mobile-optimized website, for example, using <a href="https://jquerymobile.com/" target="_blank">jQuery Mobile</a> and upload your site to your webserver/webspace. webbytron supports all kinds of web apps/websites (including HTML, PHP, WordPress, Progressive Web Apps, HTML 5 Games, WiX, apprat.io, bubble.io, …). Please make sure to optimize your website to feel like an app. Please consider a professional User Experience/UX Review on <a href="https://www.uxreviewer.io/" target="_blank">UXreviewer.io</a> or similar services for best Play Store approval results. Such a UX review also helps you to achieve better customer retention in general for your product with suggestions for improvement.</p>
+<br><h4><strong>Option B) Use a local HTML folder for accessing your web application (= <i>store files within the app</i>)</strong></h4>
+<p>webbytron supports web apps bases on local HTML folders, too: Copy your HTML/CSS/JavaScript files to the Android Studio project and set <b>USE_LOCAL_HTML_FOLDER</b> to <b>true</b> (see <a href="#setup">next step</a>). Please consider a professional User Experience/UX Review on <a href="https://www.uxreviewer.io/" target="_blank">UXreviewer.io</a> or similar services for best Play Store approval results. Such a UX review also helps you to achieve better customer retention in general for your product with suggestions for improvement.</p>
+<br><h4><strong>Option C) Use an HTML folder if the user is offline, and use a remote URL if the user is online (= <i>store files online + store backup/fallback files within the app</i>)</strong></h4>
+<p>Copy your HTML/CSS/JavaScript files to the Android Studio project, set <b>USE_LOCAL_HTML_FOLDER</b> to <b>false</b> (see <a href="#setup">next step</a>) and set <b>FALLBACK_USE_LOCAL_HTML_FOLDER_IF_OFFLINE</b> to <b>true</b> (see <a href="#setup">next step</a>). Please consider a professional User Experience/UX Review on <a href="https://www.uxreviewer.io/" target="_blank">UXreviewer.io</a> or similar services for best Play Store approval results. Such a UX review also helps you to achieve better customer retention in general for your product with suggestions for improvement.</p>
+<p id="setup">&nbsp;</p>
+<hr>
+<h3 id="setupsection"><strong>2) Setting up webbytron for Android</strong></h3>
+<b>Download</b> the webbytron app template for Android <a href="../../download/android/index.html" target="_blank"><b>here</b></a>.<br><br>Afterward, open <b>Android Studio</b>:<br><br><a data-fancybox="gallery" href="assets/img/androidstudio2020.png"><img src="assets/img/androidstudio2020.png" width="100px" alt="Android Studio welcome screen"></a><br><br>
+<p>Choose <b>Import project</b>:<br><br><a data-fancybox="gallery" href="assets/img/androidstudio_welcome2020.png"><img src="assets/img/androidstudio_welcome2020.png" height="400px" alt="Import Project button"></a><br><br>Select your <b>AndroidStudioSource</b> folder and wait until the project loaded completely:<br><br>
+<a data-fancybox="gallery" href="assets/img/filepicker.png"><img src="assets/img/filepicker.png" width="600px" alt="Android Studio file picker"></a><br><br>
+Afterward, open <b>Config.java</b> file to edit main configuration details (URL, URL Handling, UserAgent, dialogs). Please take a look at our <a href="https://www.youtube.com/channel/UChuOoCMcXP_8SQPbZyXTPjA?sub_confirmation=1" target="_blank">YouTube channel</a> for specific setup tutorials. Please don't forget to add your <a href="https://help.market.envato.com/hc/en-us/articles/202822600-Where-Is-My-Purchase-Code-" target="_blank">Envato/CodeCanyon Purchase Code</a> in the <b>PURCHASECODE</b> field for each app published by you. One license per each customized end product is required. Please take a look for license info of your CodeCanyon purchase: <a href="https://codecanyon.net/licenses/standard?ref=onlineappcreator" target="_blank">https://codecanyon.net/licenses/standard</a><br>The main configuration document <b>Config.java</b> looks like this: <br><br><a data-fancybox="gallery" href="assets/img/config.png"><img src="assets/img/config.png" alt="Config.java allows you to configure most of the settings directly in the document" height="400px"></a>
+<p>Setting up apps with webbytron is <b>very easy</b> and does not require any coding knowledge. Please take a look at this <b>overview</b> of the built-in configuration options in <b>Config.java</b> file:<p>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/wzDG5Akxxv8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
+<style>
+                  .divTable {
+                    display: table!important;
+                      overflow: auto;
+                    width: 100%;
+                  }
+
+                  .divTableRow {
+                    display: table-row;
+                  }
+
+                  .divTableHeading {
+                    background-color: #EEE;
+                    display: table-header-group;
+                  }
+
+                  .divTableCell,
+                  .divTableHead {
+                    border: 1px solid #999999;
+                    display: table-cell;
+                    padding: 3px 10px;
+                  }
+
+                  .divTableHeading {
+                    background-color: #EEE;
+                    display: table-header-group;
+                    font-weight: bold;
+                  }
+
+                  .divTableFoot {
+                    background-color: #EEE;
+                    display: table-footer-group;
+                    font-weight: bold;
+                  }
+
+                  .divTableBody {
+                    display: table-row-group;
+                  }
+                </style>
+<div style='overflow-x:auto'>
+<div class="divTable">
+<div class="divTableBody">
+<div class="divTableRow" style="background-color: #EEEEEE;">
+<div class="divTableCell">HOST</div>
+<div class="divTableCell"><b>required value</b></div>
+<div class="divTableCell">Your domain host without https:// or http:// prefix (e.g. "www.example.org")</div>
+</div>
+<div class="divTableRow" style="background-color: #EEEEEE;">
+<div class="divTableCell">HOME_URL</div>
+<div class="divTableCell"><b>required value</b></div>
+<div class="divTableCell">Your full WebView URL (e.g. "https://www.example.org/app.html") which should be loaded in the WebView</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">USE_LOCAL_HTML_FOLDER</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>true</i> to use local "index.html" HTML file instead of remote WebView URL</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">FALLBACK_USE_LOCAL_HTML_FOLDER_IF_OFFLINE</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>true</i> if you want to use the "local-html" folder if the user is offline, and use the remote URL if the user is online</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">ACTIVATE_PROGRESS_BAR</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>false</i> to disable the progress spinner/loading spinner</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">USER_AGENT</div>
+<div class="divTableCell">optional</div>
+<div class="divTableCell">Define a customized UserAgent for web requests (or leave it empty to use the default Android UserAgent)</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">APPEND_LANG_CODE</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>true</i> if you want to extend URL request by the system language like ?webview_language=LANGUAGE CODE (e.g., ?webview_language=EN for English users)</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">OPEN_EXTERNAL_URLS_IN_ANOTHER_BROWSER</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>true</i> to open all external hosts in an external browser (outside your app)</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">OPEN_SPECIAL_URLS_IN_NEW_TAB</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>true</i> to open links with attributes (_blank, _self) in new a tab by default
+</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">CLEAR_CACHE_ON_STARTUP</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>true</i> to clear the WebView cache on each app startup and do not use cached versions of your web app/website</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">IS_DEEP_LINKING_ENABLED</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>true</i> to enable deep-linking</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">OPEN_NOTIFICATION_URLS_IN_SYSTEM_BROWSER</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>true</i> to open the notification deep linking URLs in the system browser instead of your app</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">SPLASH_SCREEN_ACTIVATED</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>true</i> to activate the splash screen</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">SPLASH_TIMEOUT</div>
+<div class="divTableCell">number value (milliseconds)</b></div>
+<div class="divTableCell">Set the splash screen timeout in <i>milliseconds</i></div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">SCALE_SPLASH_IMAGE</div>
+<div class="divTableCell">percentage value (0-100)</b></div>
+<div class="divTableCell">Set the splash screen image size with respect to device smallest width/height; range in percentage [0-100]; Caution: value = 0 will hide the image completely</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">darkStatusBarText</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+ <div class="divTableCell">Status Bar Dark/Light Mode; Set to <i>true</i> for dark status bar text; use it in combination with 'colorPrimaryDark' in style.xml</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">PREVENT_SLEEP</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>true</i> to prevent the device from going into sleep while the app is active</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">EXIT_APP_BY_BACK_BUTTON_ALWAYS</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>true</i> to close the app by pressing the hardware back button (instead of going back to the last page)</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">EXIT_APP_BY_BACK_BUTTON_HOMEPAGE</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>true</i> to close the app by pressing the hardware back button if the user is on the home page (which does not allow going to a prior page)</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">SHOW_FIRSTRUN_DIALOG</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>false</i> to disable the First Run Dialog</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">SHOW_FACEBOOK_DIALOG</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>false</i> to disable the Follow On Facebook Dialog</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">SHOW_RATE_DIALOG</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>false</i> to disable the Rate This App Dialog</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">RATE_DAYS_UNTIL_PROMPT</div>
+<div class="divTableCell">number value (days)</div>
+<div class="divTableCell">Set the minimum number of days to be passed after the application is installed before the "Rate this app" dialog is displayed</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">RATE_LAUNCHES_UNTIL_PROMPT</div>
+<div class="divTableCell">number value (launches)</div>
+<div class="divTableCell">Set the minimum number of application launches before the "Rate this app" dialog is displayed</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">FACEBOOK_DAYS_UNTIL_PROMPT</div>
+<div class="divTableCell">number value (days)</div>
+<div class="divTableCell">Set the minimum number of days to be passed after the application is installed before the "Follow on Facebook" dialog is displayed</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">FACEBOOK_LAUNCHES_UNTIL_PROMPT</div>
+<div class="divTableCell">number value (launches)</div>
+<div class="divTableCell">Set the minimum number of application launches before the "Rate this app" dialog is displayed</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">FACEBOOK_URL</div>
+<div class="divTableCell">value (URL)</div>
+<div class="divTableCell">Set the URL of your Facebook site</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">PUSH_ENABLED</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>true</i> to activate OneSignal Push (set OneSignal IDs in the build.gradle file)</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">PUSH_ENHANCE_WEBVIEW_URL</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>true</i> if you want to extend URL request by ?onesignal_push_id=XYZ (set the OneSignal IDs in the build.gradle file)</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">PUSH_RELOAD_ON_USERID</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>true</i> if WebView should be reloaded when the app gets a UserID from OneSignal (set the OneSignal IDs in the build.gradle file)</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">FIREBASE_PUSH_ENABLED</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>true</i> to activate Firebase Push (replace google-services.json before)</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">FIREBASE_PUSH_ENHANCE_WEBVIEW_URL</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>true</i> if you want to extend URL request by ?firebase_push_id=XYZ</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">SHOW_BANNER_AD</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>true</i> if you want to display AdMob banner ads (set the AdMob IDs in the strings.xml file)</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">SHOW_FULL_SCREEN_AD</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>true</i> if you want to display AdMob fullscreen interstitial ads after X website clicks (set the AdMob IDs in the strings.xml file)</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">SHOW_AD_AFTER_X</div>
+<div class="divTableCell">value (website reloads)</div>
+<div class="divTableCell">Set the number X of website clicks for AdMob interstitial ads (set the AdMob IDs in the strings.xml file)</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">HIDE_ADS_FOR_PURCHASE</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>true</i> to hide AdMob ads after successful In-App Purchase</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">USE_FACEBOOK_ADS</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>true</i> to use Facebook Audience Network ads instead of AdMob ads (set the Ad IDs in the strings.xml file)</div>
+</div>
+ <div class="divTableRow">
+<div class="divTableCell">downloadableExtension</div>
+<div class="divTableCell">list</div>
+<div class="divTableCell">Add the file formats that should trigger the file downloader functionality (e.g., .pdf, .docx, ...)</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">requireLocation</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>false</i> if you do NOT require location services/GPS coordinates. You may also need to delete the permission from the <i>AndroidManifest.xml</i> file.</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">requireStorage</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>false</i> if you do NOT require APIs related to downloads or uploads. You may also need to delete the permission from the <i>AndroidManifest.xml</i> file.</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">requireCamera</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>false</i> if you do NOT require APIs related to camera images / camera videos. You may also need to delete the permission from the <i>AndroidManifest.xml</i> file.</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">requireRecordAudio</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>false</i> if you do NOT require APIs related to recording audio. You may also need to delete the permission from the <i>AndroidManifest.xml</i> file.</div>
+</div>
+</div>
+</div>
+</div>
+<br><br>Open <b>strings.xml</b> file to edit app name &amp; text strings:<br><br><a data-fancybox="gallery" href="assets/img/screenshot_Strings.jpg"><img src="assets/img/screenshot_Strings.jpg" alt="string.xml file for editing text captions" height="400px"></a>
+<br><br>Open <b>dimens.xml</b> file to modify text formatting:<br><br><a data-fancybox="gallery" href="assets/img/screenshot_Dimens.jpg"><img src="assets/img/screenshot_Dimens.jpg" alt="Use dimens.xml to resize objects and text" height="400px"></a><br>
+<br><br>Open <b>colors.xml</b> file to edit colors of the status bar, splash screen, and loading sign/loading indicator:<br><br><a data-fancybox="gallery" href="assets/img/screenshot_colors.jpg"><img src="assets/img/screenshot_colors.jpg" alt="Modify the assets in colors.xml to re-color objects and screens" height="400px"></a><br>
+</p>
+<p id="icon">&nbsp;</p>
+<hr>
+<h3 id="iconsection"><strong>3) Change the App Icon</strong></h3>
+<p>
+<a data-fancybox="gallery" href="assets/img/screenshot_Icon.jpg"><img src="assets/img/screenshot_Icon.jpg" width="250px" alt="Android App Icon"></a><br>
+A beautiful app icon is a perfect first impression for your customers. It's easy to add your app icon to your webbytron project: Make a right-click on each ic_launcher.png size (from hdpi to xxxhdpi) and click "Reveal in Finder" (Mac) or "Reveal in Explorer" (Windows). Replace the file with your icon. Alternatively, use this helpful tool: <a href="https://jgilfelt.github.io/AndroidAssetStudio/icons-launcher.html" target="_blank"><b>Launcher Icon Generator</b></a> (we are not affiliated with the developer company).<br> <br>
+<a data-fancybox="gallery" href="assets/img/roundvsboxicon.png"><img src="assets/img/roundvsboxicon.png" width="250px" alt="Android Icon Round vs. Box"></a>
+<br>
+On devices where square icons are used, the icon of "ic_launcher.png" is displayed; on devices with round icons, either "ic_launcher_round.png" or "ic_launcher_foreground.png". These three icon files must be placed in the folders "mipmap-hdpi", "mipmap-xhdpi", "mipmap-xxhdpi" and "mipmap-xxxhdpi".
+</p>
+<p id="splash">&nbsp;</p>
+<hr>
+<h3 id="splashsection"><strong>4) Change Splash Screen</strong></h3>
+<p>
+Would you like to make your app more attractive to your customers and display your branding as a welcome image? Sure, add your individual splash screen graphics. Just replace the included <b>splash.gif</b> files with your own image file. Make sure to use GIF format (animated or static) and 128x128 Pixels size.
+<br>
+<a data-fancybox="gallery" href="assets/img/splashgif.png"><img src="assets/img/splashgif.png" alt="Splash Screen Configuration" width="250px"></a>
+<br>You can change the timeout in <b>Config.java</b> file:
+<br>
+<a data-fancybox="gallery" href="assets/img/splash_timeout.png"><img src="assets/img/splash_timeout.png" alt="Maximum time of Splash Screen" width="250px"></a></p>
+<p id="externallinks">&nbsp;</p>
+<hr>
+<h3 id="externallinkssection"><strong>URL Handling – Open links in System Browser</strong></h3>
+<p>It often makes sense in WebView based apps to treat different web addresses differently. If you place a social media button in your web app, a click on it should probably not open the social media page in your app, but in the right app (e.g., the system browser). It's good that webbytron has all the features to enable powerful configuration and treat links the way you want it.<br></p>
+<p>
+<h3>Option 1: Open all external hosts in System Browser</h3>If you want to <b>open every URL, which is not on your host</b> in System Browser, please set <b>OPEN_EXTERNAL_URLS_IN_ANOTHER_BROWSER</b> (in Config.java file) to <b>true</b>.
+</p>
+<p>
+<h3>Option 2: Open only specific hosts in System Browser</h3>Please search for this snippet (CMD+F) in MainActivity.java:<br><br>
+<a data-fancybox="gallery" href="assets/img/externalhost.png"><img src="assets/img/externalhost.png" alt="Open a specific URL in the system browser instead of WebView" width="800px"></a>
+<br>
+<br>
+To add another domain, just copy this snippet and insert another host, which should be opened in System Browser. Please enter the host precisely the way you link to it.
+<hr>
+<h3 id="tabs"><strong>URL Handling – Open links in a tab/additional In-App-Browser</strong></h3>
+<p>There are some cases for links that do not feel to be "important enough" to open them in the System browser externally but "too specific" for opening them in the app WebView itself (e.g., your Terms and Conditions page). For this particular kind of links, we added a creative idea of URL Handling: a tab that opens an additional in-app-browser over the main WebView content itself. It will look like this:<br><br><a data-fancybox="gallery" href="assets/img/tabs.jpg"><img alt="Open a link in an additional in-app-browser/tab in Android WebView apps" src="assets/img/tabs.jpg" width="250"></a><br><br>As you see this in-app-browser includes an address bar and navigation buttons. That's a considerable difference to the primary, full-screen WebView content. So this kind of combination of app and browser experience is great for tutorials, knowledge databases, and all type of content that requires any type of navigation. To use this kind of in-app-browser, link to an URL in this format:<br>
+<pre class="prettyprint">
+&lt;a href='#' onClick="top.location.href='https://www.google.com';">Open Google&lt;/a>
+      </pre>
+<br>Please insert <a href="../../demo/testlinks.html" target="_blank">https://www.webbytron.com/demo/testlinks.php</a> as WebView URL to test how your app will handle different types of links. You can open the same domain <a href="../../demo/testlinks.html" target="_blank">https://www.webbytron.com/demo/testlinks.php</a> in your desktop browser and see the source code to copy & paste the way of link.
+<p id="css">&nbsp;</p>
+<hr>
+<h3 id="csssection"><strong>Custom CSS API</strong></h3>
+<p>The Custom CSS feature of webbytron allows you to customize the appearance of your web application without the need to customize the CSS style sheets of your web application itself. The custom CSS classes will be applied to all website loads requested by your application built with webbytron. Just insert the custom CSS in the file <b>custom.css</b> and save the changes:<br><br><a data-fancybox="gallery" href="assets/img/custom_css.jpg"><img alt="Custom CSS" src="assets/img/custom_css.jpg" width="450px"></a>
+</p>
+<p id="geolocation">&nbsp;</p>
+<hr>
+<h3 id="geolocationsection"><strong>HTML5 Geolocation API</strong></h3>
+<p>The HTML5 Geolocation feature enables users to communicate their own position to a web application. Check out the <a href='https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API' target="_blank">Mozilla guide</a> on how to implement geolocation into your website or web app. In webbytron, the HTML5 Geolocation API will work by default after you integrated it into your web content. Demo: <a href="https://www.w3schools.com/html/html5_geolocation.asp" target="_blank">https://www.w3schools.com/html/html5_geolocation.asp</a>
+</p>
+<p id="push">&nbsp;</p>
+<hr>
+<h3 id="pushsection"><strong>Push Notifications API via OneSignal, Firebase, and JavaScript</strong></h3>
+<p>Push notifications are notifications that appear on your smartphone without opening the app. These types of messages allow fantastic interaction with customers and users of the app. Your app does not have to be open. This way, your customers do not miss any important news or messages. Push Notifications are suitable for many cases, e.g., for updates to orders, live tickers, or social media community. There must be an internet connection to allow app users to receive push messages. webbytron supports multiple ways of reaching your users via push notifications.</p>
+<h3><b>Option 1:</b> Use Local Push Notification JavaScript API</h3>
+<p>You can insert a piece of code (JavaScript) in your website, to define a push notification, which can be shown <b>after</b> your app was closed (while scheduling it during the app is open). This works without OneSignal configuration at all.
+<pre class="prettyprint">
+&lt;script>
+var seconds = 120; //seconds from now on
+var message = "It is Happy Hour now! Check it out!"; //the message
+var button = "Open App"; //the text of the button
+window.location.href = "sendlocalpushmsg://push.send?s="+ seconds +"=msg!"+ message +"&!#"+ button +"";
+&lt;/script>
+      </pre>
+<br>It could be used for different situations (countdowns, happy hours (like in the example code), reminders, ...).<br>To cancel all scheduled local push notifcations run:<br>
+<pre class="prettyprint">
+&lt;script>
+window.location.href = "sendlocalpushmsg://push.send.cancel";
+&lt;/script>
+      </pre><br></p>
+<h3><b>Option 2:</b> Use OneSignal Remote Push Notifications</h3>
+<p>If you want to use <a href="https://www.onesignal.com/" target="_blank">OneSignal</a> in your app, activate these options in <b>Config.java</b> (by switching the values from <b>false</b> to <b>true</b>):<br>
+ <a data-fancybox="gallery" href="assets/img/onesignal_config.png"><img src="assets/img/onesignal_config.png" height="140px" alt="Configuration of OneSignal"></a><br><br>
+Please set your OneSignal App ID in <b>build.gradle</b> file afterward:<br><br><br>
+<a data-fancybox="gallery" href="assets/img/onesignal_appid.png"><img src="assets/img/onesignal_appid.png" height="160px" alt="Enter your application identifier of OneSignal to enable push notifications"></a><br><br><br>
+<a href="https://documentation.onesignal.com/docs/generate-a-google-server-api-key" target="_blank">Set up</a> the OneSignal service for your Android app. Yay, you are <b>done</b>. You can send push notifications now:<br><br>
+<a href="https://www.onesignal.com/" target="_blank"><img src="assets/img/onesignal_newmsg.png" alt="How to send a push message in OneSignal" height="260px"></a></p>
+If you want to use OneSignal URL Deeplinking (opens a specific URL when clicking on your notification), please add the desired URL with a custom field called <b>url</b>:<br><br><a data-fancybox="gallery" href="assets/img/onesignal_deeplinking.png"><img src="assets/img/onesignal_deeplinking.png" alt="Add a custom URL for deeplinking purposes in WebView" height="120px"></a></p>
+<br>On the OneSignal.com Backend, you can fill in this key-value-pair window after clicking on "Advanced settings". Using the OneSignal API, you can add the "url" field to the API request (<a href="https://documentation.onesignal.com/docs/onesignal-api" target="_blank">https://documentation.onesignal.com/docs/onesignal-api</a>).<br><br>Do you want to get <b>each individual user ID </b>on your server for further processing and <b>individual user</b> push messages? Just activate the <b>PUSH_ENHANCDE_WEBVIEW_URL</b> option in Confing.java (by switching the value from false to true) in order to append ?onesignal_push_id=XYZ to your WebView URL. If your WebView URL is https://www.example.org, webbytron will call https://www.example.org?onesignal_push_id=XYZ instead. Only your FIRST URL request will get that GET variable, so save it in a session or in a cookie to access it on your linked pages.<br><br><br><br>
+<h3><b>Option 3:</b> Use Firebase Remote Push Notifications</h3>
+<p>
+<b>1. Create a Firebase project<br></b>
+Before you can add Firebase to your webbytron app, you have to create a Firebase project in your <a href="https://console.firebase.google.com/" target="_blank">Firebase Console</a>.<br><br>
+<b>2. Register your app with Firebase<br></b>
+After you created your Firebase project, you can add your webbytron app to it.<br><br>
+a. In the center of the Firebase console's project overview page, click the Android icon to launch the setup workflow.<br><br>
+b. If you've already added an app to your Firebase project, click <b>Add app</b> to display the platform options.
+Enter your app's package name as changed/defined <a href="#publish">in this step</a>.
+Make sure that you enter the package name that your app is using. You cannot add or modify this value after you register your app with your Firebase project.<br><br>
+<b>4. Click the <i>Register app</i> button.<br><br></b>
+<b>5. Download google-services.json<br><br></b>
+Click Download google-services.json to obtain your Firebase Android config file (google-services.json) and replace the sample file already included in the webbytron project buy using the Mac Finder or the Windows Explorer:<br><br>
+<a data-fancybox="gallery" href="assets/img/firebase1.png"><img src="assets/img/firebase1.png" alt="Replace google-services.json in your webbytron Android App" height="180px"></a><br><br>
+<b>6. Activate Firebase in webbytron<br><br></b>
+Go to Config.java file and turn the <b>FIREBASE_PUSH_ENABLED</b> variable to <b>true</b>.<br><br>
+<a data-fancybox="gallery" href="assets/img/firebase2.png"><img src="assets/img/firebase2.png" alt="Replace google-services.json in your webbytron Android App" height="90px"></a><br><br>
+<b>7. That's it!<br></b><br>Do you want to get <b>each individual user ID </b>on your server for further processing and <b>individual user</b> push messages? Just activate the <b>FIREBASE_PUSH_ENHANCE_WEBVIEW_URL</b> option in Confing.java (by switching the value from false to true) in order to append ?firebase_push_id=XYZ to your WebView URL. If your WebView URL is https://www.example.org, webbytron will call https://www.example.org?firebase_push_id=XYZ instead. Only your FIRST URL request will get that GET variable, so save it in a session or in a cookie to access it on your linked pages.<br><br><br><br>
+<h3><b>Option 4:</b> Use bubble.io Push Notifications</h3>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/C0HBXlMSK2E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p>
+1. Create a <b>bubble.io app</b><br>
+2. Install the <b><a href="https://bubble.io/plugin/webbytron-onesignal-push-1602240916803x713805488222896100" target="_blank">webbytron OneSignal Push</a></b> plugin:
+<br>
+<a href="https://bubble.io/plugin/webbytron-onesignal-push-1602240916803x713805488222896100" target="_blank"><img src="assets/img/bubblepushplugin-2048x724.jpg" alt="bubble.io webbytron OneSignal Push plugin" style="width:490px;"></a><br>
+3. Follow the <b>OneSignal instructions (see above)</b> and the <b>plugin instructions (see <a href="https://bubble.io/plugin/webbytron-onesignal-push-1602240916803x713805488222896100" target="_blank">here</a> and <a href="https://www.youtube.com/watch?v=C0HBXlMSK2E" target="_blank">here</a>)</b>.<br>
+</p>
+<p id="admob">&nbsp;</p>
+<hr>
+<h3 id="admobsection"><strong>Banner and Interstitial ads via AdMob API</strong></h3>
+<p>AdMob offers the possibility of monetizing mobile projects. It is a Google-provided service for integrating Google ads into mobile applications. The AdMob program allows mobile application developers to incorporate ads on iOS and Android platforms. The ad space provided by the app developer is paid by clicks (CPC, Cost Per Click) or impressions (CPM, Cost Per Mille). webbytron is ready for activating AdMob ads by default, and it allows you to monetize your WebView-based applications. Make sure to buy an <a href="#credits">Extended License</a> of webbytron if you want to make money with apps based on webbytron.<br><br>Open <b>Config.java</b> file:<br><br><a data-fancybox="gallery" href="assets/img/admob1.png"><img alt="Monetize your WebView apps with native AdMob SDK" src="assets/img/admob1.png" height="180px"></a><br><br>You can activate and deactivate banner and/or interstitial ads and define the interval of appearing interstitial ads. Please set your AdMob IDs in the <b>strings.xml</b> file before launching your app:<br><br><a data-fancybox="gallery" href="assets/img/admob2.png"><img src="assets/img/admob2.png" alt="Enable specific AdMob ad blocs in your app" height="180px"></a><br><br>For more information, please consider the <a href="https://developers.google.com/admob/" target="_blank">official AdMob SDK documentation</a> as well (but skip the setup parts as webbytron already includes the framework).</p>
+<p id="facebookads">&nbsp;</p>
+<hr>
+<h3 id="facebookadssection"><strong>Banner and Interstitial ads via Facebook Audience Network Ads API</strong></h3>
+<p>The Facebook Audience Network offers the possibility of monetizing mobile projects. It is a Facebook-provided service for integrating Facebook ads into mobile applications. The Audience Network program allows mobile application developers to incorporate ads on iOS and Android platforms. The ad space provided by the app developer is paid by clicks (CPC, Cost Per Click) or impressions (CPM, Cost Per Mille). webbytron is ready for activating Facebook Audience Network ads by default, and it allows you to monetize your WebView-based applications.<br><br>Open <b>Config.java</b> file and activate these 3 variables:<br><br><a data-fancybox="gallery" href="assets/img/admob1.png"><img alt="Monetize your WebView apps with native AdMob SDK" src="assets/img/admob1.png" height="180px"></a><br><br>Moreover, set <b>USE_FACEBOOK_ADS</b> to <b>true</b>. In the last setup step, please set your Facebook Ad IDs in the <b>strings.xml</b> file before launching your app.</p>
+<p id="downloader">&nbsp;</p>
+<hr>
+<h3 id="downloadersection"><strong>Image, Music, And File Downloader API</strong></h3>
+<p>If you offer to download or view documents or other downloads in your web app, our webbytron Download API will help you for the tremendous and native user experience of your app.<br></p>Save <b>images</b> to the camera roll of the user by calling links with savethisimage://?url= prefix:
+<pre class="prettyprint">
+&lt;a href="savethisimage://?url=IMAGE URL HERE">Link&lt;/a>
+      </pre>
+<p>Save <b>PDF files</b> by calling links with .pdf suffix:
+<pre class="prettyprint">
+&lt;a href="https://www.example.org/file.pdf">Link&lt;/a>
+      </pre>
+<p>Save <b>Music files</b> by calling links with .mp3, .mp4 or .wav suffix:
+<pre class="prettyprint">
+&lt;a href="https://www.example.org/file.mp3">Link mp3&lt;/a>
+&lt;a href="https://www.example.org/file.mp4">Link mp4&lt;/a>
+&lt;a href="https://www.example.org/file.wav">Link wav&lt;/a>
+      </pre>
+<p>You can <b>add more file formats</b> that should trigger the file downloader functionality by adding them to the <i>downloadableExtension</i> list in the <i>Config.java</i> file.</p>
+<p id="reset_link">&nbsp;</p>
+<hr>
+<h3 id="reset_linksection"><strong>Reset App API</strong></h3>
+<p>Sometimes only a restart helps. This is true in life as well as in digital life. Click on this link to reset your users' app to app factory settings (by clearing all cookies and cache):
+<pre class="prettyprint">
+&lt;a href="reset://">Link&lt;/a>
+      </pre><br>Insert the <a href="https://www.onlineappcreator.com/reset_test.html" target="_blank">https://www.onlineappcreator.com/reset_test.html</a> URL into your webbytron app for a demo.
+<p id="loadingsign">&nbsp;</p>
+<hr>
+<h3 id="loadingsignsection"><strong>Show/hide the loading sign manually</strong></h3>
+<p>The native Android loading indicator of webbytron will be triggered <b>automatically</b> when a page starts or finishes loading. However it could be useful to know that it <b>can be triggered manually</b> as well (e.g., you could show the activity indicator as well when waiting in your live chat queue, or some cloud server action is running in the background, and you want to visualize the process on the client):
+<pre class="prettyprint">
+&lt;a href="spinneron://">Show the loading spinner&lt;/a>
+&lt;a href="spinneroff://">Hide the loading spinner&lt;/a>
+          </pre>
+<p id="uuid">&nbsp;</p>
+<hr>
+<h3 id="loadingsignsection"><strong>UUID API</strong></h3>
+<p>webbytron allows passing a <b>non-personal, unique device ID</b> (UUID / "Universally Unique Identifier") to JavaScript, which <b>can be used to identify an Android device uniquely</b>. This can be useful, for example, to save settings or values on the server-side and restore them on the client-side. Please respect local and international <b>privacy regulations</b> if you use this API.
+<pre class="prettyprint">
+&lt;a href="get-uuid://">Get UDID&lt;/a>
+&lt;a href="#" onClick="alert(uuid);">Show UDID&lt;/a>
+          </pre>
+<p id="applinks">&nbsp;</p>
+<hr>
+<h3 id="applinkssection"><strong>App Links API (take users to a specific page directly in your app)</strong></h3>
+<p>webbytron allows configuring a link scheme like www.webbytron.com/link= which can be triggered from Mail app, browser apps, ... and opens the attached link in the WebView app. Please change the scheme to your own app name (like www.example.org/link= instead of www.webbytron.com/link=) in <b>AndroidManifest.xml</b>:<br><br><a data-fancybox="gallery" href="assets/img/applinks1.png"><img src="assets/img/applinks1.png" alt="AndroidManifest.xml for App Link Configuration" width="600px"></a><br><br>Afterward, activate the <b>IS_DEEP_LINKING_ENABLED</b> option in <b>Config.java</b> file:<br><br><a data-fancybox="gallery" href="assets/img/applinks2.png"><img alt="Config.java for App Link Configuration" src="assets/img/applinks2.png" width="600px"></a><br><br>
+Last but not least, you must verify your domain ownership: <a href="https://developer.android.com/training/app-links/verify-site-associations" target="_blank"><b>Go to the Google guide</b></a>
+<br><b>Done! :)</b> Example format:<br><pre class="prettyprint">http://www.webbytron.com/link=https://www.google.com</pre><br> (this link would open www.google.com in WebView app).</p>
+<p>Do you want to test the mechanism? In the simulator, it can be challenging to check App Links. Open the <i>Terminal</i> app (Mac) or <i>Command Prompt</i> (Windows) and paste:<br>
+<pre class="prettyprint">
+adb shell at startup -a android.intent.action.VIEW -d "https://www.webbytron.com/link=https://www.example.org" webbytron.myappname
+      </pre><br>
+Replace <i>webbytron.myappname</i> with the package name of your app and replace <i>www.webbytron.com</i> with your domain.</p>
+<p id="appsharingdialog">&nbsp;</p>
+<hr>
+<h3 id="appsharingdialogsection"><strong>App Sharing Dialog API</strong></h3>
+<p>The Sharing Dialog functionality of webbytron gives your app users the ability to share the download link of your application with their friends, family, and colleagues. It's an incredibly smooth and effective way of expanding the user base of your application.<br></p>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/-GIMobalIjE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
+<p>webbytron allows triggering a native App Sharing Dialog dialog (WhatsApp, SMS, Mail, ...) by calling shareapp:// links:<br><pre class="prettyprint">&lt;a href="shareapp://sharetext?=Hey, check out this cool app at https://play.google.com/apps/...">Share app&lt;/a></pre><br>Clicking on such a link will trigger the sharing dialog:<br><br><a data-fancybox="gallery" href="assets/img/share_dialog.png"><img src="assets/img/share_dialog.png" alt="Sharing Dialog" height="300px"></a> </p>
+<p id="inapppurchases">&nbsp;</p>
+<hr>
+<h3 id="inapppurchasessection"><strong>In-App Purchase &amp; In-App Subscription API</strong></h3>
+<p>Within some apps, you can buy additional content or services. These kinds of purchases are called "in-app purchases". They can be an attractive source of revenue for developers and are very convenient for customers as they use existing accounts and payment sources for settlement. webbytron allows triggering Google Play In-App Purchases. Make sure to own an <a href="#credits">Extended License</a> of webbytron if you plan to use this feature in an end product.<br><br>Afterward, just link to this kind of URL:<br>
+<pre class="prettyprint">
+&lt;a href="inapppurchase://?package=<u>purchase_package_identifier_name_here</u>&successful_url=<u>https://www.google.com</u>">Buy In-App Purchase&lt;/a>
+        </pre>
+<br>
+<br>Alternatively, use this kind of URL for subscription products:<br>
+<pre class="prettyprint">
+&lt;a href="inappsubscription://?package=<u>purchase_package_identifier_name_here</u>&successful_url=<u>https://www.google.com</u>&expired_url=<u>https://www.yahoo.com</u>">Start In-App Subscription&lt;/a>
+        </pre>
+<br>
+<br>In this URL example, https://www.google.com should be called after the successful subscription activation, and https://www.yahoo.com should be called as soon as the subscription is expired.<br><br>You can identify the user server-side. e.g., the site /buy_now.php redirects to In-App-Purchase API and that API redirects to /thanks.php, you can still access the user/session cookies server-sided and identify the user who just bought that In-App-Purchase. In this use case, please make sure that you deactivate the CLEAR_CACHE_ON_STARTUP in the Config.java file in order to keep cookies activated by the In-App Purchase process.</p>
+<p id="qrcodescanner">&nbsp;</p>
+<hr>
+<h3 id="qrcodescannersection"><strong>QR Code Scanner API</strong></h3>
+<p>QR codes are two-dimensional versions of the barcode. QR stands for "quick response". The term refers to the immediate access to the hidden information in the code. Both their design and their functions can be personalized, and they are ideal for connecting conventional print media with any and interactive online offer. webbytron offers a built-in QR code scanner that allows scanning these codes and opening the encrypted URL in the WebView afterward.<br><br>Link to this kind of URL to trigger the QR Code Scanner:<br>
+<pre class="prettyprint">
+&lt;a href="qrcode://">Scan QR Code&lt;/a>
+        </pre>
+</p>
+<p id="publish">&nbsp;</p>
+<hr>
+<h3 id="publishsection"><strong>Build and publish your app</strong></h3>
+<p>Your app is ready, and now it's time to upload it to the Google Play Store and reach an audience of millions? Exciting! The following section will show you how to do it - whether you want to do it yourself or have some work done for you.</p>
+<h4 id="optionb"><strong>Option A) Full App Publishing Service</strong></h4>
+<br><p>Sometimes you just want to get more comfortable. Especially when you have a lot to do anyway, or more important decisions to make, or an important deadline. Treat yourself to some support - the <a href="https://www.appsubmitter.io/" target="_blank">appsubmitter.io</a> service is the first choice if you want to have your app published by experts - no certificate stress, no annoying screenshot making, no upload problems, or anything else. Of course, via your own developer account, without any restrictions. Full refund if the app gets rejected by Google. <a href="https://www.appsubmitter.io/order-wizard/?platform=android" target="_blank">Just book a video call</a>.</p>
+<a href="https://www.appsubmitter.io/" target="_blank"><img src="assets/img/apppublishingservice-android.png" alt="Google Play Store Publishing Service" width="650px"></a><br><br><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3o0xgQXagI8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
+<br><br><h4 id="optionb"><strong>Option B) Manual Publishing Process</strong></h4>
+<br>You don't want to use our pleasant submission service, but you want to deal with it yourself? Sure, follow this guide:<br><br>
+<p id="renamepackagename">In the first step, please change the <b>package name</b> to any unique package name.<br><b>Do a full backup of your source code folder before renaming the package name.</b><br><br><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/31E1uAwNByk?ecver=1" frameborder="0" allowfullscreen></iframe><br></p>
+<br>
+Afterward, please consider a professional User Experience/UX Review on <a href="https://www.uxreviewer.io/" target="_blank">UXreviewer.io</a> or similar services for best Play Store approval results. Such a UX review also helps you to achieve better customer retention in general for your product with suggestions for improvement.<br><br>Great, now you are ready to follow the steps of this second video:<br><br><br><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ieWtCaWkzYQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br><br>Make sure that the content does not contradict the legal requirements of the Google Play Store. If Google rejects your app, we offer you a <b>full refund</b> of the webbytron license (by claiming within 14 days after purchase). Just contact us by mail.<br><br><br>
+<b>Congrats on your own published Android app! 🎉</b><br><br><br>
+No time or don't you feel like signing and uploading manually? Consider the <a href="https://www.appsubmitter.io/" target="_blank">appsubmitter.io</a> service:<br><br>
+<a href="https://www.appsubmitter.io/" target="_blank"><img src="assets/img/apppublishingservice-android.png" alt="Google Play Store Publishing Service" width="650px"></a><br>
+<br><br>
+Of course, after the release should be celebrated first! But then perhaps the next project is already on the agenda? Our App Specialists are also happy to help you with <a href="https://www.onlineappcreator.com/custom-development-services.php" target="_blank">individual development services</a> for web apps, iOS apps, Android apps, chat bots, marketing ideas, and much more. <b><a href="https://www.onlineappcreator.com/custom-development-services.php" target="_blank">Learn more</a></b>
+<p id="credits">&nbsp;</p>
+<hr>
+<h3 id="creditssection"><strong>Credits / License / Upgrade to Extended License</strong></h3>
+<p>Please don't forget to add your <a href="https://help.market.envato.com/hc/en-us/articles/202822600-Where-Is-My-Purchase-Code-" target="_blank">Envato/CodeCanyon Purchase Code</a> in the <b>PURCHASECODE</b> field for each app published by you. <b>One license per each customized and published end product is required.</b><br><br>You will need an <b>Envato/CodeCanyon Extended License</b> if any of these cases apply:
+<ul>
+<li>You charge your users for the Play Store download</li>
+<li>In-App Purchases API or In-App Subscription API will be used in your app</li>
+<li>You sell your final app on any marketplace</li>
+</ul><br>
+If you already bought the <b>Regular License</b>, you can <b>upgrade</b> the existing license <a href="https://help.market.envato.com/hc/en-us/articles/115005593503-If-I-choose-the-wrong-license-or-need-to-upgrade-my-license-how-easy-is-it-to-change-to-the-correct-license-" target="_blank"><b>here</b></a>. Alternatively, if you do not want to request a refund or upgrade the license, you can re-use your existing <b>Regular License</b> for another app covered by the <b>Regular License</b>.<br><br>All rights (e.g. of images) belong to their respective owners. The provider of this source code is OnlineAppCreator by jocapps<sup>&reg;</sup> GmbH - registered in Germany - and is not affiliated with Google.</p>
+<p>Please take a look for license info of your CodeCanyon purchase: <a href="https://codecanyon.net/licenses/standard?ref=onlineappcreator" target="_blank">https://codecanyon.net/licenses/standard</a></p>
+<br>
+<p>webbytron for Android uses <a href="https://github.com/anjlab/android-inapp-billing-v3" target="_blank">android-inapp-billing-v3</a> (&copy; 2014 AnjLab) which is licensed under the Apache License, version 2.0; you may not use this file except in compliance with the license.
+<br><br>
+webbytron for Android uses <a href="https://github.com/blikoon/QRCodeScanner" target="_blank">QRCodeScanner</a> (&copy; 2018 blikoon) which is licensed under the GPLv3; you may not use this file except in compliance with the license.
+<br><br>
+webbytron for Android uses <a href="https://developers.google.com/admob/android/sdk" target="_blank">Google Mobile Ads SDK</a> (&copy; 2020 Google) which is licensed under the Google Developers Site Terms of Service; you may not use this file except in compliance with the license.
+<br><br>
+webbytron for Android uses <a href="https://github.com/OneSignal/OneSignal-Android-SDK" target="_blank">OneSignal-Android-SDK</a> (&copy; 2016 OneSignal) which is licensed under a modified MIT License; you may not use this file except in compliance with the license.
+<br><br>
+webbytron for Android uses <a href="https://github.com/ybq/Android-SpinKit" target="_blank">Android-SpinKit</a> (&copy; 2019 ybq) which is licensed under the MIT License; you may not use this file except in compliance with the license.
+<br><br>
+webbytron for Android uses <a href="https://github.com/jaiselrahman/FilePicker" target="_blank">FilePicker</a> (&copy; 2018 jaiselrahman) which is licensed under the Apache License, Version 2.0; you may not use this file except in compliance with the license.
+<br><br>
+webbytron for Android uses <a href="https://github.com/bumptech/glide" target="_blank">glide</a> (&copy; 2020 bumptech) which is licensed under the BSD License, part MIT and Apache 2.0; you may not use this file except in compliance with the license.
+<br><br>
+webbytron for Android uses <a href="https://github.com/koral--/android-gif-drawable" target="_blank">android-gif-drawable</a> (&copy; 2020 koral) which is licensed under the MIT License; you may not use this file except in compliance with the license.
+<br><br>
+webbytron for Android uses <a href="https://github.com/firebase/firebase-android-sdk" target="_blank">firebase-android-sdk</a> (&copy; 2020 Firebase) which is licensed under the Apache License, Version 2.0; you may not use this file except in compliance with the license.
+</p>
+<p id="rate">&nbsp;</p>
+<hr>
+<h3 id="ratesection"><strong>Rate webbytron</strong></h3>
+<p>If you have 10 seconds, please rate webbytron (it's a great motivation for future updates ^^):<br><br>
+<b>1.</b> Go to <a href="https://www.codecanyon.net/?ref=onlineappcreator" target="_blank"><b>CodeCanyon.net</b></a> and sign in<br>
+<b>2.</b> Navigate to <a href="https://www.codecanyon.net/downloads?ref=onlineappcreator" target="_blank"><b>https://www.codecanyon.net/downloads</b></a><br>
+<b>3.</b> Click the stars, as shown in this picture:</p><a href="https://www.codecanyon.net/downloads?ref=onlineappcreator" target="_blank"><img alt="Feedback helps us a lot!" src="assets/img/screen5.png" height=120></a><br><br>Thank you very much!<br><br><br>
+<p id="ios">&nbsp;</p>
+<hr>
+<div class="row">
+<div class="col-md">
+<h3 id="iossection"><strong>Get webbytron for iOS</strong></h3>
+<p><br><br><a href="../../download/iOS/index599b.html?ref=android_doc_footer" target="_blank"><img src="assets/img/GetwebbytronForiOS.png" alt="Get webbytron for iOS" height="190"></a></p>
+</div>
+<div class="col-md">
+<h3 id="macossection"><strong>Get webbytron for macOS</strong></h3>
+<p><br><br><a href="../../download/mac/index.html" target="_blank"><img src="assets/img/GetwebbytronForMac.png" alt="Get webbytron for macOS" height="190"></a></p>
+</div>
+</div>
+<p id="support">&nbsp;</p>
+<hr>
+</div> 
+<div class="support-footer">
+<h3 id="supportsection"><strong>Support</strong></h3>
+<iframe src="https://support.jocapps.com/OnlineAppCreator_support?ref=webbytron_Docs_iOS" style="border:0px #FFFFFF none;" allowTransparency="true" name="Support_Ticket" scrolling="auto" frameborder="0" marginheight="0px" marginwidth="0px" height="1000px" width="100%" target="_blank"></iframe>
+
+</div>
+</div> 
+<div class="footer">
+<footer id="dark-footer" class="footer footer-dark">
+<div class="container">
+<div class="columns">
+<div class="column">
+<div class="footer-column">
+<div class="footer-header">
+<h3>At one click</h3>
+</div>
+<ul class="link-list">
+<li><a href="../../index.html" target="_blank">webbytron Main Page</a></li>
+<li><a href="../../download/ios/index.html" target="_blank">Download webbytron for iOS</a></li>
+<li><a href="../../download/android/index.html" target="_blank">Download webbytron for Android</a></li>
+<li><a href="../../index.html#faq" target="_blank">FAQs &amp; Support</a></li>
+</ul>
+</div>
+</div>
+<div class="column">
+<div class="footer-column">
+<div class="footer-header">
+<h3>More Products</h3>
+</div>
+<ul class="link-list">
+<li><a href="../../mac/index.html" target="_blank">webbytron for macOS</a></li>
+<li><a href="https://www.apprat.io/" target="_blank">apprat.io App Builder</a></li>
+<li><a href="https://www.wesetupyourwebviewapp.com/?ref=webbytronwebsite_footer" target="_blank">WeSetupYourWebViewApp</a></li>
+<li><a href="https://www.photos2webgallery.com/" target="_blank">photos2webgallery for macOS</a></li>
+</ul>
+</div>
+</div>
+<div class="column">
+<div class="footer-column">
+<div class="footer-header">
+<h3>About Us</h3>
+</div>
+<ul class="link-list">
+<li><a href="https://www.onlineappcreator.com/values.php" target="_blank">Philosophy &amp; Values</a></li>
+<li><a href="https://www.onlineappcreator.com/jobs.php" target="_blank">Jobs &amp; Careers</a></li>
+<li><a href="https://www.onlineappcreator.com/privacy.php" target="_blank">Privacy Policy</a></li>
+<li><a href="https://www.onlineappcreator.com/legal_disclosure.php" target="_blank">Legal Disclosure</a></li>
+</ul>
+</div>
+</div>
+<div class="column">
+<div class="footer-column">
+<div class="footer-logo">
+<a href="https://www.onlineappcreator.com/" target="_blank">
+<img src="assets/img/logo_oac.png" alt="OnlineAppCreator" width="200px"></a>
+</div>
+ <div class="copyright">
+<span class="moto light-text">Designed and coded with lots of <i><img src="emoji/1.svg" width="16px" style="vertical-align: middle;"></i> and <i><img src="emoji/2.svg" width="16px" style="margin-left: 4px; vertical-align: middle;"></i> in Germany, European Union. Made for everyone and made with 100% renewable energy.
+<img src="emoji/3.svg" width="16px" style="margin-left: 4px; vertical-align: middle;"><img src="emoji/4.svg" width="16px" style="margin-left: 4px; vertical-align: middle;">
+</i>
+</div>
+&copy; 2015 – 2021 by
+<a href="https://www.onlineappcreator.com/" style="color: #fff !important;" target="_blank"><u>OnlineAppCreator</u></a> [<a href="https://www.onlineappcreator.com/privacy.php" style="color: #fff !important;" target="_blank"><u>Privacy Policy</u></a> | <a href="https://www.onlineappcreator.com/legal_disclosure.php" style="color: #fff !important;" target="_blank"><u>Legal Disclosure</u></a>]<br><i>Exclusive distribution by <a href="https://www.codecanyon.net/?ref=onlineappcreator" style="color: #fff !important;" target="_blank"><u>Envato Marketplace / CodeCanyon.net</u></a></i>
+</div>
+</div>
+</div>
+</div>
+</footer>
+</div>
+</div> 
+</body>
+
+<!-- Mirrored from www.webbytron.com/docs/android/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 29 Jul 2021 02:35:29 GMT -->
+</html>

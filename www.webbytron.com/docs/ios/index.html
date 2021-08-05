@@ -1,0 +1,1001 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "https://www.w3.org/TR/html4/strict.dtd">
+
+<!-- Mirrored from www.webbytron.com/docs/iOS/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 29 Jul 2021 02:35:55 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head lang="en">
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>How to convert your web app into an iOS app | Step By Step Guide - webbytron</title>
+<meta name="description" content="Convert your website or web app to Apple iOS app online easily. Just insert your URL, configure the settings & APIs and webbytron will take care of the rest.">
+<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+<link rel="stylesheet" href="../assets/css/bootstrap-4.3.1-dist/css/bootstrap.css" type="text/css">
+<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+<style type="text/css" media="screen">
+    p,
+    table,
+    hr,
+    .box {
+      margin-bottom: 25px
+    }
+
+    .box p {
+      margin-bottom: 10px
+    }
+  </style>
+<link rel="apple-touch-icon" sizes="57x57" href="../../favicon/apple-icon-57x57.html">
+<link rel="apple-touch-icon" sizes="60x60" href="../../favicon/apple-icon-60x60.html">
+<link rel="apple-touch-icon" sizes="72x72" href="../../favicon/apple-icon-72x72.html">
+<link rel="apple-touch-icon" sizes="76x76" href="../../favicon/apple-icon-76x76.html">
+<link rel="apple-touch-icon" sizes="114x114" href="../../favicon/apple-icon-114x114.html">
+<link rel="apple-touch-icon" sizes="120x120" href="../../favicon/apple-icon-120x120.html">
+<link rel="apple-touch-icon" sizes="144x144" href="../../favicon/apple-icon-144x144.html">
+<link rel="apple-touch-icon" sizes="152x152" href="../../favicon/apple-icon-152x152.html">
+<link rel="apple-touch-icon" sizes="180x180" href="../../favicon/apple-icon-180x180.html">
+<link rel="icon" type="image/png" sizes="192x192" href="../../favicon/android-icon-192x192.html">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="../../favicon/favicon-96x96.html">
+<link rel="icon" type="image/png" sizes="16x16" href="../../favicon/favicon-16x16.png">
+<link rel="stylesheet" href="../../../stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<script src="../../../cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js"></script>
+<link rel="stylesheet" href="../assets/css/custom.css">
+<script>
+    hljs.initHighlightingOnLoad();
+  </script>
+<link rel="manifest" href="../../favicon/manifest.html">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<script type="text/javascript">
+    function showBackground() {
+      document.getElementById("check").checked = false;
+      document.getElementById("wrapper").style.visibility = "visible";
+
+    }
+  </script>
+<script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"56373664"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","../../../bat.bing.com/bat.js","uetq");</script>
+</head>
+<body onload="prettyPrint()">
+<input type="checkbox" id="check">
+<nav class="navbar fixed-top">
+<style>
+    @media screen and (max-width: 768px) {
+.logodesktop {
+display: none;
+}
+        }
+    </style>
+<a class="logo" href="#">
+<img src="../assets/images/logo_white.png" class="logodesktop" height="30" alt="webbytron" loading="lazy"></a><div style="color:white; font-size: 19px;" align="center">&nbsp;Documentation for iOS</div>
+<div class="nav-items">
+<label for="check" class="checkbtn">
+<i class="fa fa-bars"></i>
+</label>
+</div>
+</nav>
+<script>
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '../../../www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-11969657-42', 'auto', {
+      'storage': 'none',
+      'storeGac': false,
+      'clientId': window._clientId
+    });
+    ga('set', 'anonymizeIp', true);
+    ga('send', 'pageview');
+  </script>
+<script type="text/javascript">
+    var addthis_config = {
+      ui_508_compliant: true,
+      data_use_cookies_ondomain: !1,
+      data_use_cookies: !1
+
+    }
+  </script>
+<script src="../../../ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="../../../cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.js"></script>
+<link rel="stylesheet" href="../../../cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.css">
+<link rel="stylesheet" href="../../../cdn.jsdelivr.net/gh/fancyapps/fancybox%403.5.7/dist/jquery.fancybox.min.css" />
+<script src="../../../cdn.jsdelivr.net/gh/fancyapps/fancybox%403.5.7/dist/jquery.fancybox.min.js"></script>
+<script type="text/javascript" src="colorbox.js"></script>
+<script>
+    $(document).ready(function() {
+      $(".popup").colorbox({
+        iframe: true,
+        innerWidth: 940,
+        innerHeight: 625
+      });
+      setTimeout(
+        function() {
+          $(".popup").trigger("click");
+        }, 9000);
+      //Example of preserving a JavaScript event for inline calls.
+      $("#click").click(function() {
+        $('#click').css({
+          "background-color": "#f00",
+          "color": "#fff",
+          "cursor": "inherit"
+        }).text("Open this window again and this message will still be here.");
+        return false;
+      });
+    });
+  </script>
+<script type="text/javascript" src="../../../s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5946cdbc79d9ca03"></script>
+<script type="text/javascript" id="e992e46f4b560ad29e2a2b0db253ec7e" src="https://support-chat.jocapps.com/script.php?id=e992e46f4b560ad29e2a2b0db253ec7e"></script>
+<div class="sidebar">
+<ul>
+<li><a href="#intro" onclick="showBackground();"><span>Intro</span></a></li>
+<li><a href="#changelog" onclick="showBackground();"><span>What's new</span></a></li>
+<li><a class="main-menu" href="#setupwebsite" onclick="showBackground();">Setting up your web app</a></li>
+<li><a class="main-menu" href="#setup" onclick="showBackground();">Setting up webbytron</a></li>
+<li><a class="main-menu" href="#name" onclick="showBackground();">Further options</a></li>
+<li><a href="#name" onclick="showBackground();">Name, Icon &amp; Splash Graphics</a></li>
+<li><a href="#safearea" onclick="showBackground();"><span>Modify Safe Area Size</span></a></li>
+<li><a href="#geolocation" onclick="showBackground();">HTML5 Geolocation API</a></li>
+<li><a href="#push" onclick="showBackground();">Push Notifications API</a></li>
+<li><a href="#admob" onclick="showBackground();">AdMob Ads API</a></li>
+<li><a href="#facebookad" onclick="showBackground();">Facebook Ads API</a></li>
+<li><a href="#reset_link" onclick="showBackground();"><span>Reset App API</span></a></li>
+<li><a href="#loadingsign" onclick="showBackground();"><span>Loading Sign API</span></a></li>
+<li><a href="#audio_background" onclick="showBackground();">HTML Audio API</a>
+<li><a href="#image_pdf_api" onclick="showBackground();">File Downloader API</a>
+<li><a href="#ical" onclick="showBackground();">iCal Calendar API</a>
+<li><a href="#uuid" onclick="showBackground();"><span>UUID API</span></a></li>
+<li><a href="#externallinks" onclick="showBackground();">URL Handling API</a></li>
+<li><a href="#css" onclick="showBackground();">Custom CSS API</a></li>
+<li><a href="#universallinks" onclick="showBackground();"><span>Universal Links API</span></a></li>
+<li><a href="#appsharingdialog" onclick="showBackground();"><span>App Sharing Dialog API</span></a></li>
+<li><a href="#inapppurchases" onclick="showBackground();">In-App Purchases API</a></li>
+<li><a href="#qrcodescanner" onclick="showBackground();">QR Code Scanner API</a></li>
+<li><a class="main-menu" href="#publish" onclick="showBackground();">Build &amp; Publish</a></li>
+<li><a href="#publish" onclick="showBackground();">App Publishing Service</a></li>
+<li><a href="#optionb" onclick="showBackground();">Manual Publishing Process</a></li>
+<li><a href="#renamepackagename" onclick="showBackground();">Change the package name</a></li>
+<li><a class="main-menu" href="#credits" onclick="showBackground();">Credits &amp; Licenses</a></li>
+<li><a class="main-menu" href="#rate" onclick="showBackground();">Rate webbytron</a></li>
+<li><a class="main-menu" href="#android" onclick="showBackground();">Continue with Android &amp; macOS</a></li>
+<li><a class="main-menu" href="#support" onclick="showBackground();">Support</a></li>
+<li><a class="main-menu" href="https://www.onlineappcreator.com/custom-development-services.php" target="_blank" onclick="showBackground();">Custom Development</a></li>
+<li></li>
+</ul>
+</div>
+<div class="wrapper">
+<p id="intro">&nbsp;</p>
+<div class="main-content">
+<div class="documentation-header">
+<div class="top-section">
+<a href="../../index.html" target="_blank">
+<h1 class="center alt"><img src="assets/img/header.png" alt="webbytron for iOS" height="200px" style="margin-top:30px; margin-bottom:10px;"></h1>
+</a><br>
+<h1 style="text-align:center;color:#4f4c4b">Documentation – webbytron for iOS</h1>
+<p style="text-align:center;color:#4f4c4b;">Switch to: [<a href="../android/index.html">webbytron for Android</a>] [<a href="../mac/index.html">webbytron for macOS</a>]</p>
+<br>
+<div class="borderTop">
+<div class="onlineAppCreator">
+<div align="center"><br><br><img src="assets/img/welcome.png" alt="webbytron for iOS is a great choice. Thanks for downloading!" height="100px"><br><br></div>
+<div class="row" align="center">
+<div class="col-sm" style="">
+<br>
+<br>
+<a href="../../download/android/index84bd.html?ref=ios_doc" target="_blank">
+<img src="assets/img/GetwebbytronForAndroid.png" alt="Get webbytron for Android" height="80px" width="210px">
+</a>
+</div>
+<div class="col-sm">
+<br>
+<br>
+<a href="../../download/mac/index.html" target="_blank">
+<img src="assets/img/GetwebbytronForMac.png" alt="Get webbytron for macOS" height="80px" width="210px">
+</a>
+</div>
+<div class="col-sm">
+<br>
+<br>
+<a href="https://www.apprat.io/" target="_blank">
+<img src="assets/img/GetAppRatio.png" alt="Get apprat.io" height="80px" width="210px">
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="info">
+<hr>
+<h3 id="changelog"><strong>What's new: Changelog</strong></h3>
+See the changelog <a href="https://codecanyon.net/item/ios-webbytron-urlhtml-to-ios-app-push-messages/10202150/faqs/23164?ref=onlineappcreator" target="_blank">here</a>.<br><br>
+ <p id="setupwebsite">&nbsp;</p>
+<hr>
+<h3 id="setupwebsitesection"><strong>1) Setting up your web app/website/HTML files</strong></h3>
+<h4><strong>Option A) Use a URL for accessing your web application (= <i>store files online</i>)</strong></h4>
+<p>Create a mobile-optimized website, for example, using <a href="https://jquerymobile.com/" target="_blank">jQuery Mobile</a> and upload your site to your webserver/webspace. webbytron supports all kinds of web apps/websites (including HTML, PHP, WordPress, Progressive Web Apps, HTML 5 Games, WiX, apprat.io, bubble.io, …). Please make sure to optimize your website to feel like an app. Please consider a professional User Experience/UX Review on <a href="https://www.uxreviewer.io/" target="_blank">UXreviewer.io</a> or similar services for best App Store approval results. Such a UX review also helps you to achieve better customer retention in general for your product with suggestions for improvement.</p>
+<br><h4><strong>Option B) Use a local HTML folder for accessing your web application (= <i>store files within the app</i>)</strong></h4>
+<p>webbytron supports web apps bases on local HTML folders, too: Copy your HTML/CSS/JavaScript files to Xcode and set <b>uselocalhtmlfolder</b> to <b>true</b> (see <a href="#setup">next step</a>). Make sure to import every single file into Xcode by dragging them into Xcode. Placing all data to root folder might be necessary (so make sure to not create or use subfolders within the local-www folder – do not access "css/style.css" but "style.css" within your files). Please consider a professional User Experience/UX Review on <a href="https://www.uxreviewer.io/" target="_blank">UXreviewer.io</a> or similar services for best App Store approval results. Such a UX review also helps you to achieve better customer retention in general for your product with suggestions for improvement.</p>
+<br><h4><strong>Option C) Use an HTML folder if the user is offline, and use a remote URL if the user is online (= <i>store files online + store backup/fallback files within the app</i>)</strong></h4>
+<p>Copy your HTML/CSS/JavaScript files to the "local-www" folder. Make sure to import every single file into Xcode by dragging them into Xcode. Placing all data to root folder might be necessary (so make sure to not create or use subfolders within the local-www folder – do not access "css/style.css" but "style.css" within your files). Set <b>uselocalhtmlfolder</b> to <b>false</b> (see <a href="#setup">next step</a>) and set <b>offlinelocalhtmlswitch</b> to <b>true</b> (see <a href="#setup">next step</a>). Please consider a professional User Experience/UX Review on <a href="https://www.uxreviewer.io/" target="_blank">UXreviewer.io</a> or similar services for best App Store approval results. Such a UX review also helps you to achieve better customer retention in general for your product with suggestions for improvement.</p>
+<p id="setup">&nbsp;</p>
+<hr>
+<h3 id="setupsection"><strong>2) Setting up webbytron for iOS</strong></h3>
+<p><b>Download</b> the webbytron app template for iOS <b><a href="../../download/ios/index.html" target="_blank">here</a></b> and download the <b>Xcode</b> app from the <b>Mac App Store</b>. If you do not own a Mac for running the required Xcode app, check out <a href="https://www.macincloud.com/" target="_blank">MacInCloud</a> as it allows you to rent a virtual Mac online starting at 1 USD per hour (we are not affiliated with the provider of that service). Using that service, you can build your iOS apps based on webbytron, even without owning a Mac. <br><br><br>Afterward, open <b>webbytron.xcworkspace</b> (instead of WebView.xcodeproj)</b>:<br><br><a data-fancybox="gallery" href="assets/img/file.png"><img src="assets/img/file.png" alt="Make sure to select the correct WebView project file when opening the Xcode project" width="250px"></a>
+<p>Within <a href="https://developer.apple.com/xcode/" target="_blank">Xcode</a>, open <b>Config.swift</b> and you will see a document like this:<br><br><a data-fancybox="gallery" href="assets/img/Configswift-img.png"><img src="assets/img/Configswift-img.png" alt="Configuration is easy using the Config.swift configuration file" height="400px"></a><br><br>Here you can set up your app easily. Setting up apps with webbytron is <b>very easy</b> and does not require any coding knowledge. Please don't forget to add your <a href="https://help.market.envato.com/hc/en-us/articles/202822600-Where-Is-My-Purchase-Code-" target="_blank">Envato/CodeCanyon Purchase Code</a> in the <b>purchasecode</b> field for each app published by you. One license per each customized end product is required. License info of your CodeCanyon purchase: <a href="https://codecanyon.net/licenses/standard?ref=onlineappcreator" target="_blank">https://codecanyon.net/licenses/standard</a></p><br>
+<p>Please take a look at this <b>overview</b> of all built-in configuration options:</p>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/E4D-Q_FhEOM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
+<style>
+            .divTable {
+              display: table!important;
+                overflow: auto;
+              width: 100%;
+            }
+
+            .divTableRow {
+              display: table-row;
+            }
+
+            .divTableHeading {
+              background-color: #EEE;
+              display: table-header-group;
+            }
+
+            .divTableCell,
+            .divTableHead {
+              border: 1px solid #999999;
+              display: table-cell;
+              padding: 3px 10px;
+            }
+
+            .divTableHeading {
+              background-color: #EEE;
+              display: table-header-group;
+              font-weight: bold;
+            }
+
+            .divTableFoot {
+              background-color: #EEE;
+              display: table-footer-group;
+              font-weight: bold;
+            }
+
+            .divTableBody {
+              display: table-row-group;
+            }
+          </style>
+<div style='overflow-x:auto'>
+<div class="divTable">
+<div class="divTableBody">
+<div class="divTableRow" style="background-color: #EEEEEE;">
+<div class="divTableCell">host</div>
+<div class="divTableCell"><b>required value</b></div>
+<div class="divTableCell">Your domain host (e.g. "example.org")</div>
+</div>
+<div class="divTableRow" style="background-color: #EEEEEE;">
+<div class="divTableCell">webviewurl</div>
+<div class="divTableCell"><b>required value</b></div>
+<div class="divTableCell">Your full WebView URL (e.g. "example.org/app.html") which should be loaded in the WebView</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">darkmodewebviewurl</div>
+<div class="divTableCell">optional</div>
+<div class="divTableCell">This URL will be used if the iOS user activated Dark Mode. Leave empty to use the default URL. To use it, set your full web app/website URL including http:// or https:// prefix and including subdomains like "www."</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">uselocalhtmlfolder</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>true</i> to use local "local-www/index.html" HTML file instead of remote WebView URL (make sure to not create or use subfolders within local-www)</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">openallexternalurlsinsafaribydefault</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>true</i> to open all external hosts in Safari</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">safariwhitelist</div>
+<div class="divTableCell">List</div>
+<div class="divTableCell">Add domains here that should <b>always</b> be opened in Safari, regardless of what the <b>openallexternalurlsinsafaribydefault</b> option is set to; to add another domain, insert another host like so: ["alwaysopeninsafari.com", "google.com", "m.facebook.com"] please enter the host exactly how you link to it (with or without www, but always without http/https)</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">safariblacklist</div>
+<div class="divTableCell">List</div>
+<div class="divTableCell">Add domains here that should <b>never</b> be opened in Safari, regardless of what the <b>openallexternalurlsinsafaribydefault</b> option is set to; to add another domain, insert another host like so: ["alwaysopeninsafari.com", "google.com", "m.facebook.com"] please enter the host exactly how you link to it (with or without www, but always without http/https)</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">preventoverscroll</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>true</i> to remove WKWebView bounce animation (recommended for most cases)</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">disablecallout</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>true</i> to remove WKWebView 3D touch Link Preview/callout window for links (recommended for most cases)</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">deletecache</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>true</i> to delete the WebView cache with every launch of your app</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">okbutton</div>
+<div class="divTableCell">optional</div>
+<div class="divTableCell">Set the text label of the "OK" buttons</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">bigstatusbar</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>true</i> to enhance the Status Bar size</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">useloadingsign</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>false</i> to hide the loading sign while loading your URL</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">hideverticalscrollbar</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>false</i> to hide the vertical scrollbar</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">hidehorizontalscrollbar</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>false</i> to hide the horizontal scrollbar</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">enableswipenavigation</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>false</i> to prevent swipe left and swipe right from triggering backward and forward page navigation</div>
+</div>
+ <div class="divTableRow">
+<div class="divTableCell">useragent_iphone</div>
+<div class="divTableCell">optional</div>
+<div class="divTableCell">Define a customized UserAgent on iPhone (or leave it empty to use the default iOS UserAgent)</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">useragent_ipad</div>
+<div class="divTableCell">optional</div>
+<div class="divTableCell">Define a customized UserAgent on iPad (or leave it empty to use the default iOS UserAgent)</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">activatefirstrundialog</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>true</i> to activate the "First run" dialog</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">firstrunmessagetitle</div>
+<div class="divTableCell">optional</div>
+<div class="divTableCell">Set the title label of the "First run" dialog</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">firstrunmessage</div>
+<div class="divTableCell">optional</div>
+<div class="divTableCell">Set the ext label of the "First run" dialog</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">askforpushpermissionatfirstrun</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>true</i> to ask your users for push notifications permission at the first run of your application. Set it to "false" to never ask or to ask with a <i>registerpush://</i> link/button/redirection in your web app later</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">offlinetitle</div>
+<div class="divTableCell">optional</div>
+<div class="divTableCell">Set the title label of the Offline dialog</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">offlinemsg</div>
+<div class="divTableCell">optional</div>
+<div class="divTableCell">Set the text of the Offline dialog</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">screen1</div>
+<div class="divTableCell">optional</div>
+<div class="divTableCell">Set the text label 1 of the Offline screen</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">screen2</div>
+<div class="divTableCell">optional</div>
+<div class="divTableCell">Set the text label 2 of the Offline screen</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">offlinebuttontext</div>
+<div class="divTableCell">optional</div>
+<div class="divTableCell">Set the text label of the Try again button</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">activateratemyappdialog</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>true</i> to activate the "Rate this app on App Store" dialog</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">activatefacebookfriendsdialog</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>true</i> to activate the "Follow on Facebook" dialog</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">becomefacebookfriendstitle</div>
+ <div class="divTableCell">optional</div>
+<div class="divTableCell">Set the title label of the "Follow on Facebook" dialog</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">becomefacebookfriendstext</div>
+<div class="divTableCell">optional</div>
+<div class="divTableCell">Set the text label of the "Follow on Facebook" dialog</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">becomefacebookfriendsyes</div>
+<div class="divTableCell">optional</div>
+<div class="divTableCell">Set the text label of the "Yes" button of the "Follow on Facebook" dialog</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">becomefacebookfriendsno</div>
+<div class="divTableCell">optional</div>
+<div class="divTableCell">Set the text label of the "No" button of the "Follow on Facebook" dialog</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">becomefacebookfriendsurl</div>
+<div class="divTableCell">optional</div>
+<div class="divTableCell">Set the URL of your Facebook fan page (e.g., "https://facebook.com/OnlineAppCreator/")</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">imagedownloadedtitle</div>
+<div class="divTableCell">optional</div>
+<div class="divTableCell">Set the title label of the "Image saved to your photo gallery" dialog box</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">imagenotfound</div>
+<div class="divTableCell">optional</div>
+<div class="divTableCell">Set the title label of the "Image was not found" dialog box</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">statusbarbackgroundcolor</div>
+<div class="divTableCell">Color</div>
+<div class="divTableCell">Set the background color of the iOS status bar. Hiding the status bar is not that good anymore in terms of Apple GUI guidelines in combination with web content, so it's not the default option in webbytron and would require some further modification. The best choice would be to use the included webbytron features for styling the background and text color of the status bar (e.g., the same color as the web app header).</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">darkmodestatusbarbackgroundcolor</div>
+<div class="divTableCell">Color</div>
+<div class="divTableCell">Set the background color of the iOS status bar while the user is in iOS Dark Mode</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">statusbarcolor</div>
+<div class="divTableCell"><b>white</b> or <b>black</b></div>
+<div class="divTableCell">Set the text color of the iOS status bar</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">darkmodestatusbarcolor</div>
+<div class="divTableCell"><b>white</b> or <b>black</b></div>
+<div class="divTableCell">Set the text color of the iOS status bar while the user is in iOS Dark Mode</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">preventsleep</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>true</i> to prevent the device from going into sleep while the app is active</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">qrcodelinks</div>
+<div class="divTableCell"><b>0</b> or <b>1</b> or <b>2</b></div>
+<div class="divTableCell">Set to 0 to open QR Code links in your own main window; set to 1 to open the links in a new popup; set to 2 to open QR Code links in Safari</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">ShowExternalLink</div>
+<div class="divTableCell">optional</div>
+<div class="divTableCell">Set to <i>true</i> to register an iOS-wide URL scheme (like webbytron://) to open links in WebView app from other apps; example format: webbytron://url?link=https://www.google.com (would open google.com in WebView app)</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">remainSplashOption</div>
+<div class="divTableCell">optional</div>
+<div class="divTableCell">Set to <i>true</i> if you want to display the Splash Screen until your page was loaded successfully</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">cssString</div>
+<div class="divTableCell">optional</div>
+<div class="divTableCell">Set any CSS classes to inject them into the HTML rendered by the WebView. Leave empty to not inject custom CSS into your webpage when accessed in WebView</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">appendlanguage</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>true</i> if you want to extend URL request by the system language like ?webview_language=LANGUAGE CODE (e.g., ?webview_language=EN for English users)</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">offlinelocalhtmlswitch</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>true</i> if you want to use the "local-html" folder if the user is offline, and use the remote URL if the user is online..</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">extentionARY</div>
+<div class="divTableCell">List</div>
+<div class="divTableCell">Add the file formats that should trigger the file downloader functionality (e.g., .pdf, .docx, ...)</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">loadingSigncolor</div>
+<div class="divTableCell">Color</div>
+<div class="divTableCell">Set a color for the loading sign indicator</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">splshscreencolor</div>
+<div class="divTableCell">Color</div>
+<div class="divTableCell">Set a background color for the splash screen</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">InAppPurchAppBundleIdentifier</div>
+<div class="divTableCell">optional</div>
+<div class="divTableCell">Set the Default App Identifier in order to activate In-App Purchase API for the default IAP product (details can be configured in App Store Connect)</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">IAPSharedSecret</div>
+<div class="divTableCell">optional</div>
+<div class="divTableCell">Set the App Secret in order to activate In-App Purchase API (details can be configured in App Store Connect)</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">iapsuccessurl</div>
+<div class="divTableCell">optional</div>
+<div class="divTableCell">Set the Default URL that should be opened after a successful In-App Purchase/In-App Subscription through the WebView wrapper. The URL could be "https://www.example.org/thanks.php," for example, and thanks.php could set the lifetime cookie for premium content.</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">iapexpiredurl</div>
+<div class="divTableCell">optional</div>
+<div class="divTableCell">Set the Default URL that should be opened after an In-App Subscription through the WebView wrapper expired. The URL could be "https://www.example.org/expired.php," for example, and expired.php could remove the cookie for premium content</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">oneSignalID</div>
+<div class="divTableCell">optional</div>
+<div class="divTableCell">Required for OneSignal push functionality</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">kPushEnabled</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>true</i> to activate the OneSignal push functionality</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">kPushEnhanceUrl</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>true</i> if you want to extend WebView Main URL requests by ?onesignal_push_id=XYZ</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">kPushReloadOnUserId</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>true</i> if WebView should be reloaded after receiving the UserID from OneSignal</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">kFirebasePushEnabled</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>true</i> to connect your app to the Firebase Push Services</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">kFirebaseEnhanceUrl</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>true</i> if you want to extend WebView Main URL requests by ?firebase_push_id=XYZ</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">AdmobBannerID</div>
+<div class="divTableCell">optional</div>
+<div class="divTableCell">Insert your AdMob ID for banner ads</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">AdmobinterstitialID</div>
+<div class="divTableCell">optional</div>
+<div class="divTableCell">Insert your AdMob ID for interstitial ads</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">showBannerAd</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>true</i> if you want to show AdMob banner ads</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">showFullScreenAd</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>true</i> if you want to show AdMob interstitial ads after X website clicks</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">showadAfterX</div>
+<div class="divTableCell">optional</div>
+<div class="divTableCell">Define number X to show an AdMob interstitial ads after each X (e.g., 10) website clicks</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">useFacebookAds</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>true</i> to activate Facebook Interstitial Ads</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">facebookAdsID</div>
+<div class="divTableCell">optional</div>
+<div class="divTableCell">Enter your Placement ID, available when you create a property on Facebook Monetization manager, and connect an iOS app. The ID will look like this: 3937960198956424_3969441893142587</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">useTimedAds</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Use timed ads for Facebook Ads (e.g., every 60s) as opposed to ads every X clicks</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">showFBAdsEveryNSeconds</div>
+<div class="divTableCell">optional</div>
+<div class="divTableCell">Show a Facebook Interstitial Ad every X seconds; 120s and above is recommended</div>
+</div>
+</div>
+</div>
+</div>
+<p id="name">&nbsp;</p>
+<hr>
+<h3 id="namesection"><strong>3) Change App Name, Icon, and Splash Screen</strong></h3>
+<p>It's effortless to change the <i>Display Name</i> of your app:<br><br><a data-fancybox="gallery" href="assets/img/screen3.png"><img src="assets/img/screen3.png" alt="Change the iOS name of your Web-View app" width="850px"></a><br><br>
+<p>Just insert a new name that should be displayed on the iOS home screen.<br>Afterward, include your <i>app icon</i>. A beautiful app icon is a perfect first impression for your customers. It's easy to add your app icon to your webbytron project:<br><br><a data-fancybox="gallery" href="assets/img/screen6.png"><img src="assets/img/screen6.png" alt="Add your iOS icon to the project space" width="850px"></a><br>
+Just replace the included image files with your own resized image files. Alternatively, use this helpful tool: <a href="https://itunes.apple.com/us/app/asset-catalog-creator-app/id809625456?mt=12&amp;uo=4&amp;at=1l3vvZe" target="_blank"><b>Asset Catalog Creator - App Icon, Image Set & Launch Screen Generator for iOS & OS X</b></a> by <i>Bridge Technologies Limited</i> (we are not affiliated with the developer company).<br><br>
+<b>Splash Screen:</b> Would you like to make your app more attractive to your customers and display your branding as a welcome image? Sure, add your individual splash screen graphics. Just replace the <i>splash.gif</i> file in the main folder of the Xcode project. Make sure to use GIF format (animated or static). You can use any GIF image resolution as long the width dimension equals the height dimension (e.g., 128px*128px, 512px*512px, or 1024px*1024px).<br><br>Set the <i>remainSplashOption</i> option (can be found in <i>Config.swift</i> file) to <i>true</i> if you want to display the Splash Screen until your page was loaded successfully. Otherwise, it will be displayed for a short time only, and the native iOS loading indicator will begin.<br><br>Use the <i>splshscreencolor</i> option (can be found in <i>Config.swift</i> file) to modify the background color of the splash screen. Color options can be found <a href="https://developer.apple.com/documentation/uikit/uicolor/standard_colors" target="_blank">here</a>.</p>
+<p id="safearea">&nbsp;</p>
+<hr>
+<h3 id="safeareasection"><strong>Modify iPhone X/XS/XS Max Safe Area size</strong></h3>
+<p>The jump from iPhone 8 to iPhone X changed a lot in terms of User Interface in the mobile industry. Depending on your web app design, the lower menu bar may be positioned incorrectly on the iPhone X/XS/XS Max/11/11 Pro due to the safe area which replaces the Home button on these devices. The good news is that webbytron allows resizing the viewport height easily. Please search for this code snippet part (CMD+F) in <b>WebViewController.swift</b> file where you can change the border value 20 to any desired value like 10, 30, ...:<br><br><a data-fancybox="gallery" href="assets/img/edgeinsets.png"><img src="assets/img/edgeinsets.png" width="790" alt="Resize the Safe Area on iPhone X/XS/XS Max WebView apps"></a>
+</p>
+<p id="geolocation">&nbsp;</p>
+<hr>
+<h3 id="geolocationsection"><strong>HTML5 Geolocation API</strong></h3>
+<p>The HTML5 Geolocation feature enables users to communicate their own position to a web application. Check out the <a href='https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API' target="_blank">Mozilla guide</a> on how to implement geolocation into your website or web app. In webbytron, the HTML5 Geolocation API will work by default after you integrated it into your web content. Since iOS 10, Geolocation is available for https-sites only, so please make sure to use a web app URL starting with https:// instead of http:// when using location requests. Demo: <a href="https://www.w3schools.com/html/html5_geolocation.asp" target="_blank">https://www.w3schools.com/html/html5_geolocation.asp</a>
+</p>
+<p id="push">&nbsp;</p>
+<hr>
+<h3 id="pushsection"><strong>Push Notifications API via OneSignal, Firebase, and JavaScript</strong></h3>
+<p>Push notifications are notifications that appear on your smartphone without opening the app. These types of messages allow fantastic interaction with customers and users of the app. Your app does not have to be open to receiving these kinds of notifications. This way, your customers do not miss any important news or messages. Push Notifications are suitable for many cases, e.g., for updates to orders, live tickers, or social media community. There must be an internet connection to allow app users to receive push messages. webbytron supports multiple ways of reaching your users via push notifications. If you do <b><font color=red>NOT</font></b> want to use push notifications at all, open <b>Config.swift</b> and set <b>askforpushpermissionatfirstrun</b> to <i>false</i> in order to prevent asking the app user for notification permission.</p>
+<h3><b>Option 1:</b> Use Local Push Notification JavaScript API</h3>
+<p>You can insert a piece of code (JavaScript) in your website, to define a push notification, which can be shown <b>after</b> your app was closed (while scheduling it during the app is open). This works without OneSignal configuration at all.
+<div class="container">
+<pre class="prettyprint">
+  &lt;script>
+  var seconds = 120; //seconds from now on
+  var message = "It is Happy Hour now! Check it out!"; //the message
+  var button = "Open App"; //the text of the button
+  window.location.href = "sendlocalpushmsg://push.send?s="+ seconds +"=msg!"+ message +"&!#"+ button +"";
+  &lt;/script>
+            </pre>
+<br>It could be used for different situations (countdowns, happy hours, specific reminders, ...).
+<br>
+To <b>cancel</b> all scheduled local push notifications run:
+<br>
+<pre class="prettyprint">
+  &lt;script>
+  window.location.href = "sendlocalpushmsg://push.send.cancel";
+  &lt;/script>
+            </pre><br><br>
+</div>
+<h3><b>Option 2:</b> Use OneSignal Remote Push Notifications</h3>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/1eoBW180Q84" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
+<p>If you want to use <a href="https://www.onesignal.com/" target="_blank">OneSignal</a> in your app, activate these options in <b>Config.swift</b> (by switching the values from <b>false</b> to <b>true</b>) and make sure to also set oneSignalID. <br>
+<a data-fancybox="gallery" href="assets/img/onesignal_constant.png"><img src="assets/img/onesignal_constant.png" alt="Activate the OneSignal features of webbytron for push notification support" height="90"></a><br><br>
+<br>Now <a href="https://documentation.onesignal.com/docs/generate-an-ios-push-certificate" target="_blank">Generate</a> an iOS Push Certificate and import it:<br><br>
+<a href="https://documentation.onesignal.com/docs/generate-an-ios-push-certificate" target="_blank"><img src="assets/img/onesignal_guide_cert.png" alt="Generate an iOS Certificate for OneSignal Push Delivery" height="240px"></a><br>
+<br>Yay, you are <b>done</b>. You can send push notifications now:<br><br>
+<a href="https://www.onesignal.com/" target="_blank"><img src="assets/img/onesignal_newmsg.png" alt="Send a new push notification to your app users" height="260px"></a><br><br>If you want to use OneSignal URL Deeplinking (opens a specific URL when clicking on your notification), please add the desired URL with a custom field called <b>url</b>:<br><br><a data-fancybox="gallery" href="assets/img/onesignal_deeplinking.png"><img src="assets/img/onesignal_deeplinking.png" alt="Enter a web address into OneSignal to enable deeplinking into your WebView app" height="120px"></a></p>
+<br>On the OneSignal.com Backend, you can fill in this key-value-pair window after clicking on "Advanced settings". Using the OneSignal API, you can add the "url" field to the API request (<a href="https://documentation.onesignal.com/docs/onesignal-api" target="_blank">https://documentation.onesignal.com/docs/onesignal-api</a>).<br><br>Do you want to get <b>each individual user ID </b>on your server for further processing and <b>individual user</b> push messages? Just activate the <b>kPushEnhanceUrl</b> option in Config.swift (by switching the value from <i>false</i> to <i>true</i>) in order to append ?onesignal_push_id=XYZ to your WebView URL. If your WebView URL is https://www.example.org, webbytron will call https://www.example.org?onesignal_push_id=XYZ instead. Only your FIRST URL request will get that GET variable, so save it in a session or in a cookie to access it on your linked pages.<br><br><br><br>
+<h3><b>Option 3:</b> Use Firebase Remote Push Notifications</h3>
+<p>
+<b>1. Create a Firebase project<br></b>
+Before you can add Firebase to your webbytron app, you have to create a Firebase project in your <a href="https://console.firebase.google.com/" target="_blank">Firebase Console</a>.<br><br>
+<b>2. Register your app with Firebase<br></b>
+After you created your Firebase project, you can add your webbytron app to it.<br><br>
+a. In the center of the Firebase console's project overview page, click the iOS icon to launch the setup workflow.<br><br>
+b. If you've already added an app to your Firebase project, click <b>Add app</b> to display the platform options.
+Enter your app's bundle ID in the iOS bundle ID field. Find your bundle ID, as follows:<br><br>
+Open your app in Xcode.<br>
+Select the top-level app in the project navigator, then select the General tab.<br>
+The value of the Bundle Identifier field is the iOS bundle ID (for example, com.onlineappcreator.webbytron).
+Make sure that you enter the ID that your app is using. You cannot add or modify this value after you register your app with your Firebase project.<br><br>
+c. Enter other app information as prompted by the setup workflow.
+<br>
+<br>– App nickname: An internal, convenience identifier that is only visible to you in the Firebase console<br><br>
+– App Store ID: Used by Firebase Dynamic Links to redirect users to your App Store page and by Google Analytics to import conversion events into Google Ads. If your app doesn't yet have an App Store ID, you can add the ID later in your Project Settings.<br><br>
+<b>4. Click the <i>Register app</i> button.<br><br></b>
+<b>5. Download GoogleService-Info.plist<br><br></b>
+Click Download GoogleService-Info.plist to obtain your Firebase iOS config file (GoogleService-Info.plist) and replace the sample file already included in the webbytron project.<br><br>
+<b>6. Activate Firebase in webbytron<br><br></b>
+Go to Config.swift file and turn the <b>kFirebasePushEnabled</b> variable to <b>true</b>.<br><br>
+<b>7. Sign your app using the Firebase certificates<br><br></b>
+Sign your app using the Firebase provisioning profile: <a href="https://firebase.google.com/docs/cloud-messaging/ios/certs" target="_blank">How To</a>
+<br><br>
+<b>8. That's it!</b><br><br>Do you want to get <b>each individual user ID </b>on your server for further processing and <b>individual user</b> push messages? Just activate the <b>kFirebaseEnhanceUrl</b> option in Config.swift (by switching the value from <i>false</i> to <i>true</i>) in order to append ?firebase_push_id=XYZ to your WebView URL. If your WebView URL is https://www.example.org, webbytron will call https://www.example.org?firebase_push_id=XYZ instead. Only your FIRST URL request will get that GET variable, so save it in a session or in a cookie to access it on your linked pages.<br><br>
+</p>
+<h3><b>Option 4:</b> Use bubble.io Push Notifications</h3>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/C0HBXlMSK2E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p>
+1. Create a <b>bubble.io app</b><br>
+2. Install the <b><a href="https://bubble.io/plugin/webbytron-onesignal-push-1602240916803x713805488222896100" target="_blank">webbytron OneSignal Push</a></b> plugin:
+<br>
+<a href="https://bubble.io/plugin/webbytron-onesignal-push-1602240916803x713805488222896100" target="_blank"><img src="assets/img/bubblepushplugin-2048x724.jpg" alt="bubble.io webbytron OneSignal Push plugin" style="width:490px;"></a><br>
+3. Follow the <b>OneSignal instructions (see above)</b> and the <b>plugin instructions (see <a href="https://bubble.io/plugin/webbytron-onesignal-push-1602240916803x713805488222896100" target="_blank">here</a> and <a href="https://www.youtube.com/watch?v=C0HBXlMSK2E" target="_blank">here</a>)</b>.<br>
+</p>
+<p id="admob">&nbsp;</p>
+<hr>
+<h3 id="admobsection"><strong>Banner and Interstitial ads via AdMob API</strong></h3>
+<p>AdMob offers the possibility of monetizing mobile projects. It is a Google-provided service for integrating Google ads into mobile applications. The AdMob program allows mobile application developers to incorporate ads on iOS and Android platforms. The ad space provided by the app developer is paid by clicks (CPC, Cost Per Click) or impressions (CPM, Cost Per Mille). webbytron is ready for activating AdMob ads by default, and it allows you to monetize your WebView-based applications.<br></p>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7j7NW5CTwqo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
+<p>Open <b>Info.plist</b> file and set your AdMob global account ID in the <i>GADApplicationIdentifier</i> field:<br><br><a data-fancybox="gallery" href="assets/img/admobglobal.png">
+<img src="assets/img/admobglobal.png" alt="Add your AdMob Account ID to the project" height="380px"></a>
+<br><br>You can activate and deactivate banner and/or interstitial ads and define the interval of appearing interstitial ads. Please set your AdMob IDs in <b>Config.swift</b> file before launching your app:<br><br><a data-fancybox="gallery" href="assets/img/admobconstants.png"><img src="assets/img/admobconstants.png" alt="Activate specific AdMob banner blocs into your application" height="90px"></a><br><br>For more information, please consider the <a href="https://developers.google.com/admob/" target="_blank">official AdMob SDK documentation</a> as well (but skip the setup parts as webbytron already includes the framework).</p>
+<p id="facebookad">&nbsp;</p>
+<hr>
+<h3 id="fbad"><strong>Interstitial Ads via Facebook Audience Network</strong></h3>
+The <a href="https://www.facebook.com/audiencenetwork/" target="_blank">Facebook Audience Network</a> offers the possibility of monetizing mobile projects. It is a Facebook-provided service for integrating Facebook ads into mobile applications. The Audience Network program allows mobile application developers to incorporate ads on iOS and Android platforms. The ad space provided by the app developer is paid by clicks (CPC, Cost Per Click) or impressions (CPM, Cost Per Mille). webbytron is ready for activating Facebook Audience Network ads by default, and it allows you to monetize your WebView-based applications.
+<p>To enable Facebook Ads, the following constants in Config.swift will need to be set</p>
+<a data-fancybox="gallery" href="assets/img/fbadsconfig.png"><img src="assets/img/fbadsconfig.png" alt="Facebook Ads configuration screenshot" height="130px"></a>
+<p><br>You must create a <a href="https://www.facebook.com/audiencenetwork/" target="_blank">Facebook Audience Network</a> account and create a property under integration in the Monetization Manager. Then you must connect an iOS app (however, you do not need to link to a published iOS app for testing purposes)</p>
+<p>Follow this guide for reference: <a href="https://www.facebook.com/business/help/191133327919314" target="_blank">https://www.facebook.com/business/help/191133327919314</a></p>
+<p>Further considerations:</p>
+<ol>
+ <li>A real iOS device must be used to test (not a simulator)</li>
+<li>The device must be added as a test device, see <a href="https://developers.facebook.com/docs/audience-network/setting-up/testing/platform" target="_blank">https://developers.facebook.com/docs/audience-network/setting-up/testing/platform</a></li>
+<li>Facebook must be installed and logged in on the device</li>
+<li>&ldquo;Limit Ad Tracking&rdquo; or any similar setting that may be released with upcoming iOS versions must be disabled.</li>
+</ol>
+<p>Please note, currently, only interstitial ads (full-screen ads) are supported. Banner ads will also be supported soon.</p>
+<hr>
+<h3 id="audio_backgroundsection"><strong>Activate HTML background audio</strong></h3>
+<p>For some scenarios, it may be useful to play audio content even after minimizing the app (for example, if you're making a radio stream or your music available in the app). Please take a look at the video to learn how your app's audio can play even when users switch to a different foreground app or when they lock their iPhone or iPad.<br></p><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/WuuviMKIVYQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p id="image_pdf_api">&nbsp;</p>
+<hr>
+<h3 id="image_pdf_apisection"><strong>Downloader for PDF, ePub, Wallet, Documents, and Music Files</strong></h3>
+<p>If you offer to download or view documents or other downloads in your web app, our webbytron Download API will help you for the tremendous and native user experience of your app.<br></p>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/V0LnwnzJx6I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p>Save <b>images</b> to the camera roll of the user by calling links with savethisimage://?url= prefix:
+<pre class="prettyprint">
+&lt;a href="savethisimage://?url=IMAGE URL HERE">Link&lt;/a>
+            </pre>
+<br>
+<p>Save <b>files</b> by calling links with a relevant suffix (e.g., .mp3):
+<pre class="prettyprint">
+&lt;a href="https://www.example.org/file.pdf">Link&lt; PDF/a>
+&lt;a href="https://www.example.org/file.mp3">Link mp3 Music&lt;/a>
+&lt;a href="https://www.example.org/file.mp4">Link mp4 Music&lt;/a>
+&lt;a href="https://www.example.org/file.wav">Link wav Music&lt;/a>
+&lt;a href="https://www.example.org/file.epub">Link epub eBook&lt;/a>
+&lt;a href="https://www.example.org/file.pkpass">Link Passbook / Apple Wallet&lt;/a>
+&lt;a href="https://www.example.org/file.docx">Link Word&lt;/a>
+&lt;a href="https://www.example.org/file.pptx">Link PowerPoint&lt;/a>
+&lt;a href="https://www.example.org/file.xlsx">Link Excel&lt;/a>
+          </pre>
+You can add more filetypes that should trigger the file downloader functionality (e.g., .epub, .zip, ...) This can be done via the list variable <i>extentionARY</i> that can be found in the Config.swift file.<br><br>
+<p id="ical">&nbsp;</p>
+<hr>
+<h3 id="loadingsignsection"><strong>iCal Calendar API</strong></h3>
+<p>webbytron allows the entry of calendar entries if you link to an .ics file:
+<pre class="prettyprint">
+&lt;a href="https://www.webbytron.com/demo/test.ics">Save to Calendar&lt;/a>
+          </pre>
+<p id="uuid">&nbsp;</p>
+<hr>
+<h3 id="loadingsignsection"><strong>UUID API</strong></h3>
+<p>webbytron allows passing a <b>non-personal, unique device ID</b> (UUID / "Universally Unique Identifier") to JavaScript, which <b>can be used to identify an iOS device uniquely</b>. This can be useful, for example, to save settings or values on the server-side and restore them on the client-side. Please respect local and international <b>privacy regulations</b> if you use this API.
+<pre class="prettyprint">
+&lt;a href="get-uuid://">Get UDID&lt;/a>
+&lt;a href="#" onClick="alert(uuid);">Show UDID&lt;/a>
+          </pre>
+<p id="reset_link">&nbsp;</p>
+<hr>
+<h3 id="reset_linksection"><strong>Reset App API</strong></h3>
+<p>Sometimes only a restart helps. This is true in life as well as in digital life. Click on this link to reset your users' app to app factory settings (by clearing all cookies and cache):
+<pre class="prettyprint">
+ &lt;a href="reset://">Link&lt;/a>
+          </pre><br>Insert the <a href="https://www.onlineappcreator.com/reset_test.html" target="_blank">https://www.onlineappcreator.com/reset_test.html</a> URL into your webbytron app for a demo.<br>
+<p id="loadingsign">&nbsp;</p>
+<hr>
+<h3 id="loadingsignsection"><strong>Show/hide the loading sign manually</strong></h3>
+<p>The native iOS loading indicator of webbytron will be triggered <b>automatically</b> when a page starts or finishes loading. However it could be useful to know that it <b>can be triggered manually</b> as well (e.g., you could show the activity indicator as well when waiting in your live chat queue, or some cloud server action is running in the background, and you want to visualize the process on the client):
+<pre class="prettyprint">
+&lt;a href="spinneron://">Show the loading spinner&lt;/a>
+&lt;a href="spinneroff://">Hide the loading spinner&lt;/a>
+          </pre>
+<p id="externallinks">&nbsp;</p>
+<hr>
+<h3 id="externallinkssection"><strong>URL Handling API</strong></h3>
+It often makes sense in WebView based apps to treat different web addresses differently. If you place a social media button in your web app, a click on it should probably not open the social media page in your app, but in the right app (e.g., the system browser). It's good that webbytron has all the features to enable powerful configuration and treat links the way you want it. Open <b>Config.swift</b> and configure the URL Handling API easily:<br><br>
+<div style='overflow-x:auto'>
+<div class="divTable">
+<div class="divTableBody">
+<div class="divTableRow">
+<div class="divTableCell">openallexternalurlsinsafaribydefault</div>
+<div class="divTableCell"><b>true</b> or <b>false</b></div>
+<div class="divTableCell">Set to <i>true</i> to open all external hosts in Safari</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">safariwhitelist</div>
+<div class="divTableCell">List</div>
+<div class="divTableCell">Add domains here that should <b>always</b> be opened in Safari, regardless of what the <b>openallexternalurlsinsafaribydefault</b> option is set to; to add another domain, insert another host like so: ["alwaysopeninsafari.com", "google.com", "m.facebook.com"] please enter the host exactly how you link to it (with or without www, but always without http/https)</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">safariblacklist</div>
+<div class="divTableCell">List</div>
+<div class="divTableCell">Add domains here that should <b>never</b> be opened in Safari, regardless of what the <b>openallexternalurlsinsafaribydefault</b> option is set to; to add another domain, insert another host like so: ["alwaysopeninsafari.com", "google.com", "m.facebook.com"] please enter the host exactly how you link to it (with or without www, but always without http/https)</div>
+</div>
+</div>
+</div>
+</div>
+<h4 id="tabs"><strong> Open links in a tab/additional In-App-Browser</strong></h4>
+<p>There are some cases for links that do not feel to be "important enough" to open them in the Safari browser externally but "too specific" for opening them in the app WebView itself (e.g., your <i>Terms and Conditions</i> page). For this particular kind of links, we added a creative idea of URL Handling: a tab that opens an additional in-app-browser over the main WebView content itself. It will look like this:<br><br><a data-fancybox="gallery" href="assets/img/tabs.jpg"><img alt="Open a link in an additional in-app-browser/tab SFSafariViewController" src="assets/img/tabs.jpg" width="250"></a><br><br>As you see, this in-app-browser includes an address bar and navigation buttons (including an "Open in Safari" button). That's a considerable difference to the primary, full-screen WebView content. So this kind of combination of app and browser experience is great for tutorials, knowledge databases, and all type of content that requires any type of navigation. To use this kind of in-app-browser, link to an URL in this format:</p><br>
+<pre class="prettyprint">
+&lt;a href='#' onClick="top.location.href='https://www.google.com';">Open Google&lt;/a>
+          </pre>
+<br>Please insert <a href="../../demo/testlinks.html" target="_blank">https://www.webbytron.com/demo/testlinks.php</a> as WebView URL to test how your app will handle different types of links. You can open the same domain <a href="../../demo/testlinks.html" target="_blank">https://www.webbytron.com/demo/testlinks.php</a> in your desktop browser and see the source code to copy & paste the way of link.<br><br>
+<p id="css">&nbsp;</p>
+<hr>
+<h3 id="csssection"><strong>Custom CSS API</strong></h3>
+<p>The Custom CSS feature of webbytron allows you to customize the appearance of your web application without the need to customize the CSS style sheets of your web application itself. The custom CSS classes will be applied to all website loads requested by your application built with webbytron. Just insert the custom CSS in the <b>cssString</b> variable in the <i>Config.swift</i> file.<br><br><a data-fancybox="gallery" href="assets/img/cssString.png"><img alt="Custom CSS" src="assets/img/cssString.png" width="650px"></a>
+<p id="universallinks">&nbsp;</p>
+<hr>
+<h3 id="universallinkssection"><strong>Universal Links API (configure a link scheme like webbytron://)</strong></h3>
+<p>With Universal Links, it becomes easy to link to content inside your app. Apple introduced the feature with iOS 9, and it's supported with any version later than iOS 9 as well. webbytron allows configuring a link scheme like webbytron:// which can be triggered from the Mail app, Safari app, ... and opens the attached link in the WebView app.<br><br><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/mW4H_gUKU28" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>Please change the scheme to your own app name (like your-app-name:// instead of webbytron://) in <b>Info.plist</b>:<br><br><a data-fancybox="gallery" href="assets/img/infoplist.png"><img alt="Info.plist is a powerful location to configure Universal links which can be triggered from different apps as well" src="assets/img/infoplist.png" width="600px"></a><br><br>Afterward, activate the <b>ShowExternalLink</b> option in <b>Config.swift</b> file:<br><br><a data-fancybox="gallery" href="assets/img/universallinks.png"><img src="assets/img/universallinks.png" alt="Universal Links Setup" width="600px"></a><br><br><b>Done! :)</b> Example format:<br> <pre class="prettyprint">webbytron://url?link=https://www.google.com</pre><br> (would open google.com in the WebView app).</p>
+<p id="appsharingdialog">&nbsp;</p>
+<hr>
+<h3 id="appsharingdialogsection"><strong>App Sharing Dialog API</strong></h3>
+<p>The Sharing Dialog functionality of webbytron gives your app users the ability to share the download link of your application with their friends, family, and colleagues. It's an incredibly smooth and effective way of expanding the user base of your application.<br></p>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/h6Zcw5bWDSM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
+<p>webbytron allows triggering a native App Sharing Dialog dialog (WhatsApp, SMS, Mail, ...) by calling shareapp:// links:<br><br><pre class="prettyprint">&lt;a href="shareapp://sharetext?=SHARING TEXT AND SHARING URL HERE">Share app&lt;/a></pre> </p>
+<p id="inapppurchases">&nbsp;</p>
+<hr>
+<h3 id="inapppurchasessection"><strong>In-App Purchase &amp; In-App Subscription API</strong></h3><br><br>
+<p>Within some apps, you can buy additional content or services. These kinds of purchases are called "in-app purchases". They can be an attractive source of revenue for developers and are very convenient for customers as they use existing accounts and payment sources for settlement. webbytron allows triggering App Store In-App Purchases. Make sure to own an <a href="#credits">Extended License</a> of webbytron if you plan to use this feature in an end product. In the first step, insert the App Store Connect details of your In-App Purchase Shared Secret in <b>Config.swift</b> file. <br><br>Afterward, just link to this kind of URL:<br><br><pre class="prettyprint">&lt;a href="inapppurchase://?package=<u>IN-APP_PURCHASE_PRODUCT_IDENTIFIER</u>&successful_url=<u>https://www.google.com</u>&disableadmob=<u>true</u>">Buy In-App Purchase&lt;/a></pre><br><br>For subscription products, use this kind of URL scheme: <br><br><pre class="prettyprint">&lt;a href="inappsubscription://?package=<u>IN-APP_PURCHASE_PRODUCT_IDENTIFIER</u>&successful_url=<u>https://www.google.com</u>&expired_url=<u>https://www.yahoo.com</u>">Start In-App Subscription&lt;/a></pre>
+<br><br><br>
+All information about the In-App Purchase Product Identifier can be found <a href="https://developer.apple.com/library/archive/qa/qa1329/_index.html" target="_blank">here</a>.<br><br>You can identify the user server-side. e.g., the site /buy_now.php redirects to In-App-Purchase API and that API redirects to /thanks.php, you can still access the user/session cookies server-sided and identify the user who just bought that In-App-Purchase. In this use case, please make sure that you deactivate the <i>deletecache</i> option in the <i>Config.swift </i>file in order to keep cookies activated by the In-App Purchase process.
+</p>
+<p id="qrcodescanner">&nbsp;</p>
+<hr>
+<h3 id="qrcodescannersection"><strong>QR Code Scanner API</strong></h3>
+<p>QR codes are two-dimensional versions of the barcode. QR stands for "quick response". The term refers to the immediate access to the hidden information in the code. Both their design and their functions can be personalized, and they are ideal for connecting conventional print media with any and interactive online offer. webbytron offers a built-in QR code scanner that allows scanning these codes and opening the encrypted URL in the WebView afterwards.<br><br>Link to this kind of URL to trigger the QR Code Scanner:<br><pre class="prettyprint">&lt;a href="qrcode://">Scan QR Code&lt;/a></pre></p>
+<p id="publish">&nbsp;</p>
+<hr>
+<h3 id="publishsection"><strong>Build and publish your app</strong></h3>
+<p>Your app is ready, and now it's time to upload it to the Apple App Store and reach an audience of millions? Exciting! The following section will show you how to do it - whether you want to do it yourself or have some work done for you.</p>
+<h4 id="optionb"><strong>Option A) Full App Publishing Service</strong></h4>
+<br><p>Sometimes you just want to get more comfortable. Especially when you have a lot to do anyway, or more important decisions to make, or an important deadline. Treat yourself to some support - the <a href="https://www.appsubmitter.io/" target="_blank">appsubmitter.io</a> service is the first choice if you want to have your app published by experts - no certificate stress, no annoying screenshot making, no upload problems, or anything else. Of course, via your own developer account, without any restrictions. Full refund if the app gets rejected by Apple. <a href="https://www.appsubmitter.io/order-wizard/?platform=ios" target="_blank">Just book a video call</a>.</p>
+<a href="https://www.appsubmitter.io/" target="_blank"><img src="assets/img/apppublishingservice-ios.png" alt="Apple App Store Publishing Service" width="650px"></a><br><br><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3o0xgQXagI8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
+<br><br><h4 id="optionb"><strong>Option B) Manual Publishing Process</strong></h4>
+<br>You don't want to use our pleasant submission service, but you want to deal with it yourself? Sure, follow this guide:<br><br>
+<p id="renamepackagename">Use your <b><a href="https://developer.apple.com/" target="_blank">Apple Developer Program Subscription</a></b> to publish your app in the App Store. Before uploading, please change the package name:<br><br><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/qZd98DEm9yI?ecver=1" frameborder="0" allowfullscreen></iframe><br></p>
+<br>
+<p>Afterward, please add customized texts to the permission details in terms of location, photo/camera access, and all other API details. Delete permissions which are not required by your app. You find the details in <b>Info.plist</b> file: <br><br><br><a data-fancybox="gallery" href="assets/img/infoplist2.png"><img src="assets/img/infoplist2.png" alt="Activate or deactivate iOS permissions in Info.plist file" width="550px"></a><br><br><br>Afterward, please consider a professional User Experience/UX Review on <a href="https://www.uxreviewer.io/" target="_blank">UXreviewer.io</a> or similar services for best App Store approval results. Such a UX review also helps you to achieve better customer retention in general for your product with suggestions for improvement.<br><br>Great, now you are ready for the App Store submission of your web app. App Store approval works in most cases without any problems but highly depends on the content you provide in your app as webbytron does not provide content by itself. Please make sure to submit an app using a website/web app that behaves like a mobile app (for example, by using <b>responsive design</b>). Make sure that the content does not contradict the legal requirements of the Apple Developer Program. Use different link colors than standard HTML colors for better user experience.</p>
+<br>Afterward, please follow the steps of this second video:<br><br><br><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/YPLs3xrDcm0?start=286" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br><br>
+<b>One addition to the tutorial video:</b>
+In timestamp 07:00, after creating the App Identifier, please make sure to activate both the capabilities "App Groups" and "Push Notifications" in the App Identifier section on the Apple Developer Portal (choose the correct App ID <a href="https://developer.apple.com/account/resources/identifiers/list" target="_blank">here</a>). See these screenshots: <a href="https://prnt.sc/xz4hg5" target="_blank">https://prnt.sc/xz4hg5</a> &amp; <a href="https://prnt.sc/xz4j01" target="_blank">https://prnt.sc/xz4j01</a>. Restart Xcode afterward.
+<br><br>
+<b>The App Store upload asks you whether you use encryption?</b>
+We do not offer legally binding advice, but "No" must be indicated here in most cases. However, if HTTPS is used, an annual security report may have to be submitted to US authorities. More information about this can be found <a href="https://developer.apple.com/documentation/security/complying_with_encryption_export_regulations" target="_blank">here</a>.
+<br><br>
+<b>The App Store upload asks you whether you use the Ad ID / IDFA?</b>
+The Ad ID is included because AdMob is integrated, but not active by default. Removing the AdMob SDK will produce a lot of dependency errors, so the easiest suggestion would be to choose "Yes" at the "Does your app use the Ad ID?" question and selecting the tickbox "Attribute this app installation to a previously served advertisement" only (leave all other tickboxes blank). So, if you use AdMob banner/interstitial ads in webbytron, please configure this screen like <a href="https://prnt.sc/t8cj0a" target="_blank">this</a>. If you do not use AdMob banner/interstitial ads in webbytron while the SDK is still embedded (which is the typical case while not using AdMob in webbytron), please select <a href="https://prnt.sc/t8ci23" target="_blank">these</a> options.
+<br><br>If Apple rejects your app, please use <b>Apple Resolution Center</b> to explain the app feature in general (like "Our app enables our existing users to login in/use our products on their handheld device/....). If Apple still rejects your app, we can offer you a <b>full refund</b> of the webbytron license (by claiming within 14 days after purchase). Just contact us by mail.<br><br><br><b>Congrats on your own published iOS app! 🎉</b><br><br><br>
+If Apple rejects your app, we offer you a <b>full refund</b> of the webbytron license (by claiming within 14 days after purchase). Just contact us by mail.<br><br><br>
+No time or don't you feel like signing and uploading manually? Consider the <a href="https://www.appsubmitter.io/" target="_blank">appsubmitter.io</a> service:<br><br>
+<a href="https://www.appsubmitter.io/" target="_blank"><img src="assets/img/apppublishingservice-ios.png" alt="Apple App Store Publishing Service" width="650px"></a><br>
+<br><br>
+Of course, after the release should be celebrated first! But then perhaps the next project is already on the agenda? Our App Specialists are also happy to help you with <a href="https://www.onlineappcreator.com/custom-development-services.php" target="_blank">individual development services</a> for web apps, iOS apps, Android apps, chat bots, marketing ideas, and much more. <b><a href="https://www.onlineappcreator.com/custom-development-services.php" target="_blank">Learn more</a></b>
+<p id="credits">&nbsp;</p>
+<hr>
+<h3 id="creditssection"><strong>Credits / License / Upgrade to Extended License</strong></h3>
+<p>Please don't forget to add your <a href="https://help.market.envato.com/hc/en-us/articles/202822600-Where-Is-My-Purchase-Code-" target="_blank">Envato/CodeCanyon Purchase Code</a> in the <b>purchasecode</b> field for each app published by you. <b>One license per each customized and published end product is required.</b><br><br>You will need an <b>Envato/CodeCanyon Extended License</b> if any of these cases apply:
+<ul>
+<li>You charge your users for the App Store download</li>
+<li>In-App Purchases API or In-App Subscription API will be used in your app</li>
+<li>You sell your final app on any marketplace</li>
+</ul><br>
+If you already bought the <b>Regular License</b>, you can <b>upgrade</b> the existing license <a href="https://help.market.envato.com/hc/en-us/articles/115005593503-If-I-choose-the-wrong-license-or-need-to-upgrade-my-license-how-easy-is-it-to-change-to-the-correct-license-" target="_blank"><b>here</b></a>. Alternatively, if you do not want to request a refund or upgrade the license, you can re-use your existing <b>Regular License</b> for another app covered by the <b>Regular License</b>.<br><br>All rights (e.g. of images) belong to their respective owners. The provider of this source code is OnlineAppCreator.com c/o jocapps GmbH - registered in Germany - and is not affiliated with Apple. IOS is a registered trademark of Cisco and used under license by Apple Inc.
+iPad, iPhone, iPod, Xcode, and Xcode logo are registered trademarks of Apple Inc.
+</p>
+<p>One license per each customized end product is required. Please take a look for license info of your CodeCanyon purchase: <a href="https://codecanyon.net/licenses/standard?ref=onlineappcreator" target="_blank">https://codecanyon.net/licenses/standard</a></p>
+<p>
+<br>webbytron for iOS uses <a href="https://github.com/OneSignal/OneSignal-iOS-SDK" target="_blank">OneSignal-iOS-SDK</a> (&copy; 2017 OneSignal) which is licensed under a modified MIT License; you may not use this file except in compliance with the license.
+<br>
+<br>webbytron for iOS uses <a href="https://github.com/SVProgressHUD/SVProgressHUD" target="_blank">SVProgressHUD</a> (&copy; 2011-2018 Sam Vermette, Tobias Tiemerding and contributors) which is licensed under the MIT License; you may not use this file except in compliance with the license.
+<br>
+<br>webbytron for iOS uses <a href="https://github.com/firebase/firebase-ios-sdk" target="_blank">firebase-ios-sdk</a> (&copy; 2020 Firebase) which is licensed under the Apache License, version 2.0; you may not use this file except in compliance with the license.
+<br>
+<br>webbytron for iOS uses <a href="https://developers.google.com/admob/ios/download" target="_blank">Google Mobile Ads SDK</a> (&copy; 2020 Google) which is licensed under the Google Developers Site Terms of Service; you may not use this file except in compliance with the license.
+<br>
+<br>webbytron for iOS uses <a href="https://github.com/nanopb/nanopb" target="_blank">nanopb</a> (&copy; 2011 Petteri Aimonen) which is licensed under the zlib License; you may not use this file except in compliance with the license.
+<br>
+<br>webbytron for iOS uses <a href="https://github.com/google/promises" target="_blank">promises</a> (&copy; 2020 Google) which is licensed under the Apache License, version 2.0; you may not use this file except in compliance with the license.
+<br>
+<br>webbytron for iOS uses <a href="https://github.com/protocolbuffers/protobuf" target="_blank">protobuf</a> (&copy; 2020 Google) which is licensed under a Google License; you may not use this file except in compliance with the license.
+<br>
+<br>webbytron for iOS uses <a href="https://github.com/vinodiOS/SwiftQRCodeScanner" target="_blank">SwiftQRCodeScanner</a> (&copy; 2017 vinodiOS) which is licensed under the MIT License; you may not use this file except in compliance with the license.
+<br>
+<br>webbytron for iOS uses <a href="https://github.com/bizz84/SwiftyStoreKit" target="_blank">SwiftyStoreKit</a> (&copy; 2015-2016 Andrea Bizzotto) which is licensed under the MIT License; you may not use this file except in compliance with the license.
+<br>
+<br>webbytron for iOS uses <a href="https://github.com/kiritmodi2702/GIF-Swift" target="_blank">GIF-Swift</a> (&copy; https://iosdevcenters.blogspot.com/).
+ </p>
+<p id="rate">&nbsp;</p>
+<hr>
+<h3 id="ratesection"><strong>Rate webbytron</strong></h3>
+<p>If you have 10 seconds, please rate webbytron (it is a great motivation for future updates ^^):<br><br>
+<b>1.</b> Go to <a href="https://www.codecanyon.net/?ref=onlineappcreator" target="_blank"><b>CodeCanyon.net</b></a> and sign in<br>
+<b>2.</b> Navigate to <a href="https://www.codecanyon.net/downloads?ref=onlineappcreator" target="_blank"><b>https://www.codecanyon.net/downloads</b></a><br>
+<b>3.</b> Click the stars, as shown in this picture:</p><a href="https://www.codecanyon.net/downloads?ref=onlineappcreator" target="_blank"><img src="assets/img/screen5.png" alt="Rate our project" height="120px"></a> <br><br>Thank you very much!
+<p id="android">&nbsp;</p>
+<hr>
+<div class="row">
+<div class="col-md">
+<h3 id="androidsection"><strong>Get webbytron for Android</strong></h3>
+<p><br><br><a href="../../download/android/index81b6.html?ref=ios_doc_footer" target="_blank"><img src="assets/img/GetwebbytronForAndroid.png" alt="Get webbytron for Android" height="190"></a>
+</div>
+<div class="col-md">
+<h3 id="macossection"><strong>Get webbytron for macOS</strong></h3>
+<p><br><br><a href="../../download/mac/index.html" target="_blank"><img src="assets/img/GetwebbytronForMac.png" alt="Get webbytron for macOS" height="190"></a>
+</div>
+</div>
+<p id="support">&nbsp;</p>
+<hr>
+</div> 
+<div class="support-footer">
+<h3 id="supportsection"><strong>Support</strong></h3>
+<iframe src="https://support.jocapps.com/OnlineAppCreator_support?ref=webbytron_Docs_iOS" style="border:0px #FFFFFF none;" allowTransparency="true" name="Support_Ticket" scrolling="auto" frameborder="0" marginheight="0px" marginwidth="0px" height="1000px" width="100%" target="_blank"></iframe>
+
+</div>
+</div> 
+<div class="footer">
+<footer id="dark-footer" class="footer footer-dark">
+<div class="container">
+<div class="columns">
+<div class="column">
+<div class="footer-column">
+<div class="footer-header">
+<h3>At one click</h3>
+</div>
+<ul class="link-list">
+<li><a href="../../index.html" target="_blank">webbytron Main Page</a></li>
+<li><a href="../../download/ios/index.html" target="_blank">Download webbytron for iOS</a></li>
+<li><a href="../../download/android/index.html" target="_blank">Download webbytron for Android</a></li>
+<li><a href="../../index.html#faq" target="_blank">FAQs &amp; Support</a></li>
+</ul>
+</div>
+</div>
+<div class="column">
+<div class="footer-column">
+<div class="footer-header">
+<h3>More Products</h3>
+</div>
+<ul class="link-list">
+<li><a href="../../mac/index.html" target="_blank">webbytron for macOS</a></li>
+<li><a href="https://www.apprat.io/" target="_blank">apprat.io App Builder</a></li>
+<li><a href="https://www.wesetupyourwebviewapp.com/?ref=webbytronwebsite_footer" target="_blank">WeSetupYourWebViewApp</a></li>
+<li><a href="https://www.photos2webgallery.com/" target="_blank">photos2webgallery for macOS</a></li>
+</ul>
+</div>
+</div>
+<div class="column">
+<div class="footer-column">
+<div class="footer-header">
+<h3>About Us</h3>
+</div>
+<ul class="link-list">
+<li><a href="https://www.onlineappcreator.com/values.php" target="_blank">Philosophy &amp; Values</a></li>
+<li><a href="https://www.onlineappcreator.com/jobs.php" target="_blank">Jobs &amp; Careers</a></li>
+<li><a href="https://www.onlineappcreator.com/privacy.php" target="_blank">Privacy Policy</a></li>
+<li><a href="https://www.onlineappcreator.com/legal_disclosure.php" target="_blank">Legal Disclosure</a></li>
+</ul>
+</div>
+</div>
+<div class="column">
+<div class="footer-column">
+<div class="footer-logo">
+<a href="https://www.onlineappcreator.com/" target="_blank">
+<img src="assets/img/logo_oac.png" alt="OnlineAppCreator" width="200px"></a>
+</div>
+<div class="copyright">
+<span class="moto light-text">Designed and coded with lots of <i><img src="emoji/1.svg" width="16px" style="vertical-align: middle;"></i> and <i><img src="emoji/2.svg" width="16px" style="margin-left: 4px; vertical-align: middle;"></i> in Germany, European Union. Made for everyone and made with 100% renewable energy.
+<img src="emoji/3.svg" width="16px" style="margin-left: 4px; vertical-align: middle;"><img src="emoji/4.svg" width="16px" style="margin-left: 4px; vertical-align: middle;">
+</i>
+</div>
+&copy; 2015 – 2021 by
+<a href="https://www.onlineappcreator.com/" style="color: #fff !important;" target="_blank"><u>OnlineAppCreator</u></a> [<a href="https://www.onlineappcreator.com/privacy.php" style="color: #fff !important;" target="_blank"><u>Privacy Policy</u></a> | <a href="https://www.onlineappcreator.com/legal_disclosure.php" style="color: #fff !important;" target="_blank"><u>Legal Disclosure</u></a>]<br><i>Exclusive distribution by <a href="https://www.codecanyon.net/?ref=onlineappcreator" style="color: #fff !important;" target="_blank"><u>Envato Marketplace / CodeCanyon.net</u></a></i>
+</div>
+</div>
+</div>
+</div>
+</footer>
+</div>
+</div> 
+</body>
+
+<!-- Mirrored from www.webbytron.com/docs/iOS/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 29 Jul 2021 02:36:17 GMT -->
+</html>

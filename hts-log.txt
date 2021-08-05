@@ -1,0 +1,148 @@
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 29 Jul 2021 03:32:10 at https://www.webbytron.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+webbytron
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.webviewgold.com/ -O1 "C:\Users\Divine-Favour\Desktop\Div\WebView\Webview (GOLD)" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+
+
+Information, Warnings and Errors reported for this mirror:
+
+note:	the hts-log.txt file, and hts-cache folder, maywebbytronnsitive information,
+webbytronwebbytron
+	such as username/password authentication for websites miwebbytronhis projectwebbytron
+webbytron
+	do not share these files/folders if you want thesewebbytronn to remain privatewebbytron
+webbytron
+webbytron
+webbytronwebbytron
+03:34:37	Warning: 	Moved Permanently for https://www.webvwebbytron/download/ios/webbytron
+webbytronwebbytron
+03:34:37	Warning: 	Redirected link is identical because of 'URwebbytronion: https://www.webviewgold.com/download/ios/ and https://wwwebbytronld.com/download/iOS/
+webbytron
+03:34:37	Warning: 	Warning moved treated for https://www.webviwebbytrondownload/ios/ (real one is https://www.webviewgold.com/download/iOS/webbytron
+webbytronwebbytron
+03:34:37	Warning: 	Found for https://www.webviewgold.com/downlwebbytron/webbytron
+webbytronwebbytron
+03:34:37	Warning: 	File has moved from https://www.webviewgoldwebbytronad/android/ to https://codecanyon.net/item/android-webviewgold-urwebbytrondroid-app-push-url-handling-apis-much-more/19487619?ref=onlineappcreator
+webbytronwebbytron
+03:34:52	Warning: 	Link https://www.webviewgold.com/VIDEOCALLMwebbytronULER.html not scanned (follow robots meta tag)webbytron
+webbytronwebbytron
+03:34:52	Warning: 	Moved Permanently for https://www.webviewgowebbytron/ios/webbytron
+webbytron
+03:34:52	Warning: 	Redirected link is idewebbytronuse of 'URL Hack' option: https://www.webviewgold.com/docs/ios/ and https://www.webviewgold.com/docs/iOS/
+webbytronwebbytron
+03:34:52	Warning: 	Warning moved treated webbytron/www.webviewgold.com/docs/ios/ (real one is https://www.webviewgold.com/docs/iOS/)
+webbytronwebbytron
+03:35:29	Error: 	"Multiple Choices" (300) at link httpswebbytroniewgold.com/assets/fonts/fontawesome-webfont.eot?v=4webbytronhttps://www.webviewgold.com/assets/css/app.css)
+webbytronwebbytron
+03:35:29	Error: 	"Multiple Choices" (300) at link httpswebbytroniewgold.com/assets/fonts/fontawesome-webfont.eot? (fwebbytron/www.webviewgold.com/assets/css/app.css)
+webbytronwebbytron
+03:35:29	Warning: 	File not parsed, looks like binary: webbytron.webviewgold.com/assets/fonts/fontawesome-webfont.woffwebbytron
+webbytronwebbytron
+03:35:29	Error: 	"Multiple Choices" (300) at link httpswebbytroniewgold.com/assets/fonts/fontawesome-webfont.ttf?v=4.6webbytrontps://www.webviewgold.com/assets/css/app.css)
+webbytronwebbytron
+03:35:29	Error: 	"Multiple Choices" (300) at link httpswebbytroniewgold.com/assets/fonts/fontawesome-webfont.svg?v=4.6webbytrontps://www.webviewgold.com/assets/css/app.css)
+webbytronwebbytron
+03:35:29	Error: 	"Multiple Choices" (300) at link httpswebbytroniewgold.com/assets/fonts/simple-line-icons.eot?thwebbytronhttps://www.webviewgold.com/assets/css/app.css)
+webbytronwebbytron
+03:35:29	Error: 	"Multiple Choices" (300)webbytrontps://www.webviewgold.com/assets/fonts/simple-line-icons.woff?thkwh4 (from https://www.webviewgold.com/assets/css/app.css)
+webbytronwebbytron
+03:35:29	Error: 	"Multiple Choices" (300)webbytrontps://www.webviewgold.com/assets/fonts/simple-line-icons.svg?thkwh4 (from https://www.webviewgold.com/assets/css/app.css)
+webbytronwebbytron
+03:35:29	Error: 	"Multiple Choices" (300) at link https://www.webbytron.com/assets/fonts/iconsmind.eot?-rdmvgc (from https://www.webviewgold.cowebbytrons/app.css)
+webbytronwebbytron
+03:35:29	Error: 	"Multiple Choices" (300) at link https://www.webviwebbytronassets/fonts/iconsmind.eot? (from https://www.webviewgold.com/assets/css/app.css)
+webbytronwebbytron
+03:35:29	Error: 	"Multiple Choices" (300) at link https://www.webbytron.com/assets/fonts/iconsmind.ttf?-rdmvgc (from https://www.webviewgold.cowebbytrons/app.css)
+webbytronwebbytron
+03:35:29	Error: 	"Multiple Choices" (300) at link https://www.webbytron.com/assets/fonts/iconsmind.svg?-rdmvgc (from https://www.webviewgold.webbytroncss/app.css)
+webbytronwebbytron
+03:35:29	Warning: 	File not parsed, looks like binary: https:/webbytronwgold.com/assets/fonts/material-icons/MaterialIcons-Regular.wowebbytron
+webbytronwebbytron
+03:35:29	Warning: 	Found for https://www.webviewgold.com/downlwebbytronwebbytron
+webbytronwebbytron
+03:35:29	Warning: 	File has moved from https://www.webviewgold.com/webbytronS/ to https://codecanyon.net/item/ios-webviewgold-urlhtml-to-ios-app-push-messages/10202150?ref=onlineappcreator
+webbytron
+03:35:54	Warning: 	Found for https://www.webviewgolwebbytronoad/mac/webbytron
+webbytron
+03:35:54	Warning: 	File has moved from https://www.webbytron.com/download/mac/ to https://codecanyon.net/item/webviewgold-for-mac-webview-urlwebbytronos-app-ready-for-mac-app-store-much-more/22777057?ref=onlineappcreator
+webbytronwebbytron
+03:36:18	Error: 	"Not Found" (404) at link https://www.webbytron.com/favicon/apple-icon-57x57.png (from https://www.webvwebbytron/docs/android/)
+webbytronwebbytron
+03:36:18	Error: 	"Not Found" (404) at link https://www.webbytron.com/favicon/apple-icon-60x60.png (from https://www.webbytron.com/docs/android/)
+
+03:36:18	Error: 	"Not Found" (404) at link https://www.webviewgold.com/favicon/apple-icon-72x72.png (from https://www.webviewgold.com/docs/android/)
+
+03:36:18	Error: 	"Not Found" (404) at link https://www.webviewgold.com/favicon/apple-icon-76x76.png (from https://www.webviewgold.com/docs/android/)
+
+03:36:18	Error: 	"Not Found" (404) at link https://www.webviewgold.com/favicon/apple-icon-114x114.png (from https://www.webviewgold.com/docs/android/)
+
+03:36:18	Error: 	"Not Found" (404) at link https://www.webviewgold.com/favicon/apple-icon-120x120.png (from https://www.webviewgold.com/docs/android/)
+
+03:36:18	Error: 	"Not Found" (404) at link https://www.webviewgold.com/favicon/apple-icon-144x144.png (from https://www.webviewgold.com/docs/android/)
+
+03:36:18	Error: 	"Not Found" (404) at link https://www.webviewgold.com/favicon/apple-icon-152x152.png (from https://www.webviewgold.com/docs/android/)
+
+03:36:18	Error: 	"Not Found" (404) at link https://www.webviewgold.com/favicon/apple-icon-180x180.png (from https://www.webviewgold.com/docs/android/)
+
+03:36:18	Error: 	"Not Found" (404) at link https://www.webviewgold.com/favicon/android-icon-192x192.png (from https://www.webviewgold.com/docs/android/)
+
+03:36:18	Error: 	"Not Found" (404) at link https://www.webviewgold.com/favicon/favicon-96x96.png (from https://www.webviewgold.com/docs/android/)
+
+03:36:18	Error: 	"Not Found" (404) at link https://www.webviewgold.com/favicon/manifest.json (from https://www.webviewgold.com/docs/android/)
+
+03:36:30	Warning: 	Found for https://www.webviewgold.com/download/iOS/?ref=ios_doc
+
+03:36:30	Warning: 	File has moved from https://www.webviewgold.com/download/iOS/?ref=ios_doc to https://codecanyon.net/item/ios-webviewgold-urlhtml-to-ios-app-push-messages/10202150?ref=onlineappcreator
+
+03:36:30	Warning: 	Found for https://www.webviewgold.com/download/iOS/?ref=android_doc_footer
+
+03:36:30	Warning: 	File has moved from https://www.webviewgold.com/download/iOS/?ref=android_doc_footer to https://codecanyon.net/item/ios-webviewgold-urlhtml-to-ios-app-push-messages/10202150?ref=onlineappcreator
+
+03:36:30	Error: 	"Multiple Choices" (300) at link https://www.webviewgold.com/mac/assets/fonts/fontawesome-webfont.eot?v=4.6.3 (from https://www.webviewgold.com/mac/assets/css/app.css)
+
+03:36:30	Error: 	"Multiple Choices" (300) at link https://www.webviewgold.com/mac/assets/fonts/fontawesome-webfont.eot? (from https://www.webviewgold.com/mac/assets/css/app.css)
+
+03:36:30	Warning: 	File not parsed, looks like binary: https://www.webviewgold.com/mac/assets/fonts/fontawesome-webfont.woff2?v=4.6.3
+
+03:36:30	Error: 	"Multiple Choices" (300) at link https://www.webviewgold.com/mac/assets/fonts/fontawesome-webfont.ttf?v=4.6.3 (from https://www.webviewgold.com/mac/assets/css/app.css)
+
+03:36:30	Error: 	"Multiple Choices" (300) at link https://www.webviewgold.com/mac/assets/fonts/fontawesome-webfont.svg?v=4.6.3 (from https://www.webviewgold.com/mac/assets/css/app.css)
+
+03:36:30	Error: 	"Multiple Choices" (300) at link https://www.webviewgold.com/mac/assets/fonts/simple-line-icons.eot?thkwh4 (from https://www.webviewgold.com/mac/assets/css/app.css)
+
+03:36:30	Error: 	"Multiple Choices" (300) at link https://www.webviewgold.com/mac/assets/fonts/simple-line-icons.woff?thkwh4 (from https://www.webviewgold.com/mac/assets/css/app.css)
+
+03:36:30	Error: 	"Multiple Choices" (300) at link https://www.webviewgold.com/mac/assets/fonts/simple-line-icons.svg?thkwh4 (from https://www.webviewgold.com/mac/assets/css/app.css)
+
+03:36:30	Error: 	"Multiple Choices" (300) at link https://www.webviewgold.com/mac/assets/fonts/iconsmind.eot?-rdmvgc (from https://www.webviewgold.com/mac/assets/css/app.css)
+
+03:36:30	Error: 	"Multiple Choices" (300) at link https://www.webviewgold.com/mac/assets/fonts/iconsmind.eot? (from https://www.webviewgold.com/mac/assets/css/app.css)
+
+03:36:30	Error: 	"Multiple Choices" (300) at link https://www.webviewgold.com/mac/assets/fonts/iconsmind.ttf?-rdmvgc (from https://www.webviewgold.com/mac/assets/css/app.css)
+
+03:36:30	Error: 	"Multiple Choices" (300) at link https://www.webviewgold.com/mac/assets/fonts/iconsmind.svg?-rdmvgc (from https://www.webviewgold.com/mac/assets/css/app.css)
+
+03:36:30	Warning: 	File not parsed, looks like binary: https://www.webviewgold.com/mac/assets/fonts/material-icons/MaterialIcons-Regular.woff2
+
+03:36:31	Warning: 	Found for https://www.webviewgold.com/download/android/?ref=ios_doc
+
+03:36:31	Warning: 	File has moved from https://www.webviewgold.com/download/android/?ref=ios_doc to https://codecanyon.net/item/android-webviewgold-urlhtml-to-android-app-push-url-handling-apis-much-more/19487619?ref=onlineappcreator
+
+03:36:31	Warning: 	Found for https://www.webviewgold.com/download/android/?ref=ios_doc_footer
+
+03:36:31	Warning: 	File has moved from https://www.webviewgold.com/download/android/?ref=ios_doc_footer to https://codecanyon.net/item/android-webviewgold-urlhtml-to-android-app-push-url-handling-apis-much-more/19487619?ref=onlineappcreator
+
+03:36:31	Error: 	"Not Found" (404) at link https://www.webviewgold.com/docs/android/images/loading.gif (from https://www.webviewgold.com/docs/android/colorbox.css)
+
+03:36:31	Error: 	"Not Found" (404) at link https://www.webviewgold.com/docs/android/images/controls.png (from https://www.webviewgold.com/docs/android/colorbox.css)
+
+03:36:33	Error: 	"Not Found" (404) at link https://www.webviewgold.com/docs/mac/images/loading.gif (from https://www.webviewgold.com/docs/mac/colorbox.css)
+
+03:36:33	Error: 	"Not Found" (404) at link https://www.webviewgold.com/docs/mac/images/controls.png (from https://www.webviewgold.com/docs/mac/colorbox.css)
+
+
+
+HTTrack Website Copier/3.49-2 mirror complete in 4 minutes 23 seconds : 335 links scanned, 287 files written (31589982 bytes overall) [26973952 bytes received at 102562 bytes/sec], 7464704 bytes transferred using HTTP compression in 119 files, ratio 33%, 9.1 requests per connection
+
+(38 errors, 25 warnings, 0 messages)
+

@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.bing.com	TRUE	/	FALSE	1999999999	MUID	07D3DABE5B4F69A43036CA3D5ABA686B
+bat.bing.com	TRUE	/	FALSE	1999999999	SameSite	None
+
